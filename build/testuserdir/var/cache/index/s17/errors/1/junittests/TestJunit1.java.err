@@ -1,0 +1,6 @@
+ERROR:7:package org.junit does not exist
+ERROR:8:package org.junit does not exist
+ERROR:9:package org.junit does not exist
+ERROR:9:static import only from classes and interfaces
+ERROR:16:org.junit.Test is not an annotation type
+ERROR:18:cannot find symbol\n  symbol\d   method assertEquals(int,int)\n  location\d class junittests.TestJunit1

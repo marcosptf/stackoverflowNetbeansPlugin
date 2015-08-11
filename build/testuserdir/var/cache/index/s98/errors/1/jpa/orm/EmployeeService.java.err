@@ -1,0 +1,4 @@
+ERROR:28:cannot find symbol\n  symbol\d   method setSalary(long)\n  location\d variable emp of type jpa.orm.Employee
+ERROR:29:cannot find symbol\n  symbol\d   method persist(jpa.orm.Employee)\n  location\d variable emp of type jpa.orm.Employee
+ERROR:36:cannot find symbol\n  symbol\d   method remove(jpa.orm.Employee)\n  location\d variable emp of type jpa.orm.Employee
+ERROR:43:cannot find symbol\n  symbol\d   method getSalary()\n  location\d variable emp of type jpa.orm.Employee

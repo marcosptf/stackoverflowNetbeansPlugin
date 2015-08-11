@@ -1,0 +1,2 @@
+ERROR:35:package junit.framework does not exist
+ERROR:60:cannot find symbol\n  symbol\d   method assertTrue(java.lang.String,boolean)\n  location\d class com.toy.anagrams.lib.WordLibraryTest

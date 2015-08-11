@@ -1,0 +1,4 @@
+ERROR:65:Unexpected token EXCLAMATION_MARK found
+ERROR:66:Unexpected token IDENT found
+ERROR:65:Unexpected token NL found
+ERROR:66:Unexpected token RPAREN found

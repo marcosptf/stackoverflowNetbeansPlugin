@@ -1,0 +1,7 @@
+ERROR:7:package junit.framework does not exist
+ERROR:8:package org.junit does not exist
+ERROR:8:static import only from classes and interfaces
+ERROR:9:package org.junit does not exist
+ERROR:10:package org.junit does not exist
+ERROR:11:package org.junit does not exist
+ERROR:11:static import only from classes and interfaces

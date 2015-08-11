@@ -1,0 +1,2 @@
+ERROR:1:Expected , but found eof\n(function(d){var a=/^\\s*|\\s*$/g,e,c="B".replace(/A(.)|B
+ERROR:1:Expected } but found eof\n(function(d){var a=/^\\s*|\\s*$/g,e,c="B".replace(/A(.)|B

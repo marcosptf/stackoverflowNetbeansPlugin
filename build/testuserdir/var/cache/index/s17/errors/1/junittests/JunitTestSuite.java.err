@@ -1,0 +1,4 @@
+ERROR:7:package org.junit.runner does not exist
+ERROR:8:package org.junit.runners does not exist
+ERROR:15:org.junit.runner.RunWith is not an annotation type
+ERROR:16:org.junit.runners.Suite.SuiteClasses is not an annotation type

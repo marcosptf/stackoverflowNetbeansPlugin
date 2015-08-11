@@ -1,0 +1,11 @@
+ERROR:7:package org.junit does not exist
+ERROR:7:static import only from classes and interfaces
+ERROR:8:package org.junit does not exist
+ERROR:8:static import only from classes and interfaces
+ERROR:9:package org.junit does not exist
+ERROR:9:static import only from classes and interfaces
+ERROR:10:package org.junit does not exist
+ERROR:17:org.junit.Test is not an annotation type
+ERROR:22:cannot find symbol\n  symbol\d   method assertEquals(java.lang.String,java.lang.String)\n  location\d class junittests.TestJunit3
+ERROR:23:cannot find symbol\n  symbol\d   method assertFalse(boolean)\n  location\d class junittests.TestJunit3
+ERROR:24:cannot find symbol\n  symbol\d   method assertNotNull(java.lang.String)\n  location\d class junittests.TestJunit3

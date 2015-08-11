@@ -1,0 +1,11 @@
+ERROR:3:package org.junit does not exist
+ERROR:4:package junit.framework does not exist
+ERROR:5:package org.junit does not exist
+ERROR:5:static import only from classes and interfaces
+ERROR:6:package junit.framework does not exist
+ERROR:20:org.junit.Test is not an annotation type
+ERROR:12:package junit.framework does not exist
+ERROR:12:cannot find symbol\n  symbol\d   variable super\n  location\d class junittests.TestJunit6
+ERROR:17:package junit.framework does not exist
+ERROR:17:cannot find symbol\n  symbol\d   variable super\n  location\d class junittests.TestJunit6
+ERROR:22:cannot find symbol\n  symbol\d   method assertFalse(boolean)\n  location\d class junittests.TestJunit6

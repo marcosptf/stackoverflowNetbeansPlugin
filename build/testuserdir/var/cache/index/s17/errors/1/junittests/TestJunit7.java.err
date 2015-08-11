@@ -1,0 +1,12 @@
+ERROR:3:package org.junit does not exist
+ERROR:4:package org.junit does not exist
+ERROR:5:package org.junit does not exist
+ERROR:6:package org.junit does not exist
+ERROR:7:package org.junit does not exist
+ERROR:8:package org.junit does not exist
+ERROR:14:org.junit.BeforeClass is not an annotation type
+ERROR:20:org.junit.AfterClass is not an annotation type
+ERROR:26:org.junit.Before is not an annotation type
+ERROR:32:org.junit.After is not an annotation type
+ERROR:38:org.junit.Test is not an annotation type
+ERROR:44:org.junit.Ignore is not an annotation type

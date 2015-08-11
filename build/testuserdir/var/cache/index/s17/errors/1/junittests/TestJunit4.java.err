@@ -1,0 +1,26 @@
+ERROR:6:package org.junit does not exist
+ERROR:7:package org.junit does not exist
+ERROR:7:static import only from classes and interfaces
+ERROR:8:package org.junit does not exist
+ERROR:8:static import only from classes and interfaces
+ERROR:9:package org.junit does not exist
+ERROR:9:static import only from classes and interfaces
+ERROR:10:package org.junit does not exist
+ERROR:10:static import only from classes and interfaces
+ERROR:11:package org.junit does not exist
+ERROR:11:static import only from classes and interfaces
+ERROR:12:package org.junit does not exist
+ERROR:12:static import only from classes and interfaces
+ERROR:13:package org.junit does not exist
+ERROR:13:static import only from classes and interfaces
+ERROR:14:package org.junit does not exist
+ERROR:14:static import only from classes and interfaces
+ERROR:21:org.junit.Test is not an annotation type
+ERROR:36:cannot find symbol\n  symbol\d   method assertEquals(java.lang.String,java.lang.String)\n  location\d class junittests.TestJunit4
+ERROR:37:cannot find symbol\n  symbol\d   method assertTrue(boolean)\n  location\d class junittests.TestJunit4
+ERROR:38:cannot find symbol\n  symbol\d   method assertFalse(boolean)\n  location\d class junittests.TestJunit4
+ERROR:39:cannot find symbol\n  symbol\d   method assertNotNull(java.lang.String)\n  location\d class junittests.TestJunit4
+ERROR:40:cannot find symbol\n  symbol\d   method assertNull(java.lang.String)\n  location\d class junittests.TestJunit4
+ERROR:41:cannot find symbol\n  symbol\d   method assertSame(java.lang.String,java.lang.String)\n  location\d class junittests.TestJunit4
+ERROR:42:cannot find symbol\n  symbol\d   method assertNotSame(java.lang.String,java.lang.String)\n  location\d class junittests.TestJunit4
+ERROR:43:cannot find symbol\n  symbol\d   method assertArrayEquals(java.lang.String[],java.lang.String[])\n  location\d class junittests.TestJunit4

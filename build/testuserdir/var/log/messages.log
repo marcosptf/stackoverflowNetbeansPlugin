@@ -1,0 +1,1403 @@
+-------------------------------------------------------------------------------
+>Log Session: Tuesday, August 11, 2015 3:11:40 PM BRT
+>System Info: 
+  Product Version         = NetBeans IDE 8.0 RC1 (Build 201402242200) (#279f174c0395)
+  Operating System        = Linux version 3.5.0-54-generic running on amd64
+  Java; VM; Vendor        = 1.7.0_72; Java HotSpot(TM) 64-Bit Server VM 24.72-b04; Oracle Corporation
+  Runtime                 = Java(TM) SE Runtime Environment 1.7.0_72-b14
+  Java Home               = /usr/lib/jvm/java-7-oracle/jre
+  System Locale; Encoding = en_US (nb); UTF-8
+  Home Directory          = /home/marcos
+  Current Directory       = /home/marcos/NetBeansProjects/stackoverflowNetbeansPlugin
+  User Directory          = /home/marcos/NetBeansProjects/stackoverflowNetbeansPlugin/build/testuserdir
+  Cache Directory         = /home/marcos/NetBeansProjects/stackoverflowNetbeansPlugin/build/testuserdir/var/cache
+  Installation            = /usr/local/netbeans-8.0rc1/nb
+                            /usr/local/netbeans-8.0rc1/ergonomics
+                            /usr/local/netbeans-8.0rc1/ide
+                            /usr/local/netbeans-8.0rc1/extide
+                            /usr/local/netbeans-8.0rc1/java
+                            /usr/local/netbeans-8.0rc1/apisupport
+                            /usr/local/netbeans-8.0rc1/webcommon
+                            /usr/local/netbeans-8.0rc1/websvccommon
+                            /usr/local/netbeans-8.0rc1/enterprise
+                            /usr/local/netbeans-8.0rc1/mobility
+                            /usr/local/netbeans-8.0rc1/profiler
+                            /usr/local/netbeans-8.0rc1/php
+                            /usr/local/netbeans-8.0rc1/harness
+                            /usr/local/netbeans-8.0rc1/cnd
+                            /usr/local/netbeans-8.0rc1/dlight
+                            /usr/local/netbeans-8.0rc1/groovy
+                            /usr/local/netbeans-8.0rc1/javafx
+                            /home/marcos/NetBeansProjects/stackoverflowNetbeansPlugin/build/cluster
+                            /usr/local/netbeans-8.0rc1/platform
+  Boot & Ext. Classpath   = /usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes:/usr/lib/jvm/java-7-oracle/jre/lib/ext/sunec.jar:/usr/lib/jvm/java-7-oracle/jre/lib/ext/sunpkcs11.jar:/usr/lib/jvm/java-7-oracle/jre/lib/ext/localedata.jar:/usr/lib/jvm/java-7-oracle/jre/lib/ext/dnsns.jar:/usr/lib/jvm/java-7-oracle/jre/lib/ext/zipfs.jar:/usr/lib/jvm/java-7-oracle/jre/lib/ext/sunjce_provider.jar
+  Application Classpath   = /usr/local/netbeans-8.0rc1/platform/lib/boot.jar:/usr/local/netbeans-8.0rc1/platform/lib/org-openide-modules.jar:/usr/local/netbeans-8.0rc1/platform/lib/org-openide-util.jar:/usr/local/netbeans-8.0rc1/platform/lib/org-openide-util-lookup.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/boot_ja.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/boot_pt_BR.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/boot_ru.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/boot_zh_CN.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/org-openide-modules_ja.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/org-openide-modules_pt_BR.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/org-openide-modules_ru.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/org-openide-modules_zh_CN.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/org-openide-util_ja.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/org-openide-util-lookup_ja.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/org-openide-util-lookup_pt_BR.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/org-openide-util-lookup_ru.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/org-openide-util-lookup_zh_CN.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/org-openide-util_pt_BR.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/org-openide-util_ru.jar:/usr/local/netbeans-8.0rc1/platform/lib/locale/org-openide-util_zh_CN.jar:/usr/lib/jvm/java-7-oracle/lib/dt.jar:/usr/lib/jvm/java-7-oracle/lib/tools.jar
+  Startup Classpath       = /usr/local/netbeans-8.0rc1/platform/core/core.jar:/usr/local/netbeans-8.0rc1/platform/core/org-openide-filesystems.jar:/usr/local/netbeans-8.0rc1/platform/core/locale/core_ru.jar:/usr/local/netbeans-8.0rc1/platform/core/locale/org-openide-filesystems_pt_BR.jar:/usr/local/netbeans-8.0rc1/platform/core/locale/core_ja.jar:/usr/local/netbeans-8.0rc1/platform/core/locale/core_pt_BR.jar:/usr/local/netbeans-8.0rc1/platform/core/locale/org-openide-filesystems_zh_CN.jar:/usr/local/netbeans-8.0rc1/platform/core/locale/org-openide-filesystems_ja.jar:/usr/local/netbeans-8.0rc1/platform/core/locale/core_zh_CN.jar:/usr/local/netbeans-8.0rc1/platform/core/locale/org-openide-filesystems_ru.jar:/usr/local/netbeans-8.0rc1/nb/core/org-netbeans-upgrader.jar:/usr/local/netbeans-8.0rc1/nb/core/locale/org-netbeans-upgrader_zh_CN.jar:/usr/local/netbeans-8.0rc1/nb/core/locale/core_nb_pt_BR.jar:/usr/local/netbeans-8.0rc1/nb/core/locale/org-netbeans-upgrader_pt_BR.jar:/usr/local/netbeans-8.0rc1/nb/core/locale/core_nb_ru.jar:/usr/local/netbeans-8.0rc1/nb/core/locale/org-netbeans-upgrader_ja.jar:/usr/local/netbeans-8.0rc1/nb/core/locale/core_nb_zh_CN.jar:/usr/local/netbeans-8.0rc1/nb/core/locale/core_nb_ja.jar:/usr/local/netbeans-8.0rc1/nb/core/locale/org-netbeans-upgrader_ru.jar:/usr/local/netbeans-8.0rc1/nb/core/locale/core_nb.jar
+-------------------------------------------------------------------------------
+WARNING [org.netbeans.modules.netbinox]: Cannot compute install area. No common prefix between /usr/local/netbeans-8.0rc1/ and /home/marcos/NetBeansProjects/stackoverflowNetbeansPlugin/build/cluster
+INFO [org.netbeans.modules.netbinox]: Install area set to file:/usr/local/netbeans-8.0rc1/
+WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.form.nb, org.netbeans.modules.glassfish.common] use org.jdesktop.layout which is deprecated: Use javax.swing.GroupLayout instead. (In form editor: select Form ... in Inspector; change Layout Generation Style to Standard Java 6 code.)
+WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.java.editor.lib, org.netbeans.modules.web.core.syntax, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.deprecated.pre65formatting which is deprecated.
+WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.ide.kit, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.structure which is deprecated.
+WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.apisupport.ant, org.netbeans.modules.java.hints, org.netbeans.modules.maven.hints, org.netbeans.modules.maven.j2ee, org.netbeans.modules.web.beans] use org.netbeans.modules.java.hints.legacy.spi which is deprecated: Use Java Hints SPI (org.netbeans.spi.java.hints) instead.
+WARNING [org.openide.filesystems.Ordering]: Not all children in Services/DiffProviders/ marked with the position attribute: [org-netbeans-modules-diff-cmdline-CmdlineDiffProvider.settings], but some are: [org-netbeans-modules-diff-builtin-provider-BuiltInDiffProvider.settings]
+INFO [org.netbeans.modules.project.libraries.LibrariesStorage]: Cannot load library from file /home/marcos/NetBeansProjects/stackoverflowNetbeansPlugin/build/testuserdir/config/org-netbeans-api-project-libraries/Libraries/Java-EE-GlassFish-v3.xml, reason: Cannot create library: Java-EE-GlassFish-v3 of unknown type: serverlibrary
+INFO [org.netbeans.modules.project.libraries.LibrariesStorage]: Cannot load library from file /home/marcos/NetBeansProjects/stackoverflowNetbeansPlugin/build/testuserdir/config/org-netbeans-api-project-libraries/Libraries/Java-EE-GlassFish-v3.xml, reason: Cannot create library: Java-EE-GlassFish-v3 of unknown type: serverlibrary
+WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: no code name base passed when looking up build_info at org.netbeans.modules.uihandler.BuildInfo.logBuildInfo(BuildInfo.java:84)
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	org.openide.util.lookup [8.24.1 201402242200]
+	org.openide.util [8.37.1 201402242200]
+	org.openide.modules [7.42.1 201402242200]
+	org.openide.filesystems [8.10.1 201402242200]
+	org.netbeans.api.annotations.common/1 [1.23.1 201402242200]
+	org.openide.awt [7.61.1 201402242200]
+	org.stackoverflow [1.0 150811]
+	org.netbeans.api.progress/1 [1.37.1 201402242200]
+	org.openide.dialogs [7.36.1 201402242200]
+	org.openide.nodes [7.38.1 201402242200]
+	org.openide.windows [6.70.1 201402242200]
+	org.netbeans.modules.editor.mimelookup/1 [1.35.1 201402242200]
+	org.openide.text [6.61.1 201402242200]
+	org.netbeans.swing.tabcontrol [1.50.1 201402242200]
+	org.netbeans.swing.outline [1.29.1 201402242200]
+	org.openide.explorer [6.56.1 201402242200]
+	org.openide.actions [6.34.1 201402242200]
+	org.netbeans.modules.queries/1 [1.38.1 201402242200]
+	org.openide.loaders [7.56.2 201402242200]
+	org.openide.io [1.44.1 201402242200]
+	org.openide.execution [1.35.1 201402242200]
+	org.netbeans.upgrader [4.30.1 201402242200]
+	org.netbeans.swing.plaf [1.36.1 201402242200]
+	org.netbeans.modules.projectapi/1 [1.57.1 201402242200]
+	org.netbeans.swing.dirchooser [1.24.1 201402242200]
+	org.netbeans.spi.viewmodel/2 [1.45.1 201402242200]
+	org.netbeans.spi.tasklist/1 [1.29.1.1 1 201402242200]
+	org.netbeans.spi.quicksearch [1.22.1 201402242200]
+	org.netbeans.spi.palette/1 [1.41.1 201402242200]
+	org.netbeans.spi.navigator/1 [1.32.1 201402242200]
+	org.netbeans.libs.javacapi [8.10.1.3 3 201402242200]
+	org.netbeans.libs.javacimpl/1 [0.37.1.25 25 201402242200]
+	org.netbeans.modules.classfile/1 [1.44.1 201402242200]
+	org.netbeans.modules.projectuiapi/1 [1.76.1.8 8 201402242200]
+	org.netbeans.modules.project.indexingbridge [1.12.1 201402242200]
+	org.netbeans.bootstrap/1 [2.67.1 201402242200]
+	org.netbeans.core.startup/1 [1.53.1 201402242200]
+	org.netbeans.modules.sampler [1.9.1 201402242200]
+	org.netbeans.modules.keyring [1.19.1 201402242200]
+	org.netbeans.core/2 [3.45.1 201402242200]
+	org.netbeans.modules.options.api/1 [1.39.1 201402242200]
+	org.netbeans.api.xml/1 [1.38.1 201402242200]
+	org.netbeans.modules.options.java [1.9.1 201402242200]
+	org.netbeans.core.multiview/1 [1.39.1 201402242200]
+	org.apache.tools.ant.module/3 [3.74.1.2 2 201402242200]
+	org.netbeans.api.java.classpath/1 [1.41.1 201402242200]
+	org.netbeans.modules.project.libraries/1 [1.46.1 201402242200]
+	org.netbeans.api.java/1 [1.51.1 201402242200]
+	org.netbeans.modules.java.platform/1 [1.34.1 201402242200]
+	org.apache.xml.resolver [1.27.1.12 12 201402242200]
+	org.netbeans.modules.xml.catalog/2 [1.36.1.4 4 201402242200]
+	org.netbeans.modules.project.ant/1 [1.59.1 201402242200]
+	org.netbeans.api.search [1.16.1 201402242200]
+	org.netbeans.modules.editor.util/1 [1.57.1 201402242200]
+	org.netbeans.modules.lexer/2 [1.58.1.1 1 201402242200]
+	org.netbeans.modules.editor.settings/1 [1.52.1 201402242200]
+	org.netbeans.modules.editor.lib2/1 [1.84.1.43 43 201402242200]
+	org.netbeans.modules.editor.errorstripe.api/1 [2.28.1.1 1 201402242200]
+	org.netbeans.modules.options.keymap [1.30.1 201402242200]
+	org.netbeans.modules.editor.settings.storage/1 [1.44.1 201402242200]
+	org.netbeans.modules.editor.fold/1 [1.39.1 201402242200]
+	org.netbeans.modules.editor.indent/2 [1.36.1 201402242200]
+	org.netbeans.modules.editor.lib/3 [3.48.1.22.43 22 201402242200]
+	org.netbeans.modules.editor.errorstripe/2 [2.29.1.1.1 1 201402242200]
+	org.netbeans.modules.editor.fold.nbui [1.6.1.43 201402242200]
+	org.netbeans.modules.editor/3 [1.78.1.5.22.43 5 201402242200]
+	org.netbeans.modules.options.editor/1 [1.50.1 201402242200]
+	org.netbeans.modules.diff/1 [1.46.1.42.1 42 201402242200]
+	org.netbeans.modules.editor.guards/1 [1.25.1 201402242200]
+	org.netbeans.libs.lucene/3 [3.15.1 201402242200]
+	org.netbeans.modules.masterfs/2 [2.46.1 201402242200]
+	org.netbeans.modules.parsing.lucene/2 [2.27.2.1 1 201402242200]
+	org.netbeans.modules.parsing.api/1 [1.71.1.8 8 201402242200]
+	org.netbeans.modules.refactoring.api [1.39.1.1 1 201402242200]
+	org.netbeans.modules.java.preprocessorbridge [1.34.1.1 1 201402242200]
+	org.netbeans.lib.nbjavac [1.12.1.2.25 2 201402242200]
+	org.netbeans.modules.java.lexer/1 [1.27.1 201402242200]
+	org.netbeans.modules.editor.indent.project/0 [1.17.1 201402242200]
+	org.netbeans.modules.java.source [0.134.1.31.2.25.8 31 201402242200]
+	org.netbeans.modules.java.project/1 [1.58.1 201402242200]
+	org.netbeans.modules.settings/1 [1.44.1 201402242200]
+	org.netbeans.core.windows/2 [2.75.1 201402242200]
+	org.netbeans.modules.autoupdate.services [1.45.1 201402242200]
+	org.netbeans.modules.autoupdate.ui [1.40.1 201402242200]
+	org.netbeans.spi.editor.hints/0 [1.34.1.7.43 7 201402242200]
+	org.netbeans.modules.code.analysis/0 [1.20.2 201402242200]
+	org.netbeans.spi.java.hints [1.20.1.13.2.25.31.8 13 201402242200]
+	org.netbeans.modules.editor.tools.storage [1.3.1 201402242200]
+	org.netbeans.spi.editor.hints.projects [1.6.1.1.7 1 201402242200]
+	org.netbeans.api.debugger/1 [1.45.1 201402242200]
+	org.netbeans.spi.debugger.ui/1 [2.43.1 201402242200]
+	org.netbeans.modules.xml.core/2 [1.38.1.4 4 201402242200]
+	org.netbeans.modules.editor.completion/1 [1.39.1.2 2 201402242200]
+	org.netbeans.modules.editor.codetemplates/1 [1.37.1.1 1 201402242200]
+	org.netbeans.modules.editor.actions/1 [1.25.1.43 201402242200]
+	org.netbeans.core.ui/1 [1.40.1 201402242200]
+	org.netbeans.modules.jumpto/1 [1.41.1.1 1 201402242200]
+	org.netbeans.modules.editor.breadcrumbs/0 [1.11.1 201402242200]
+	org.netbeans.modules.csl.api/2 [2.46.1.2.1.1.8 2 201402242200]
+	org.netbeans.modules.xml.lexer [1.25.1 201402242200]
+	org.netbeans.modules.editor.deprecated.pre65formatting/0 [1.22.1.1.5.22.43 1 201402242200]
+	org.netbeans.modules.editor.structure/1 [1.42.1.1 1 201402242200]
+	org.netbeans.modules.editor.bracesmatching/0 [1.33.1.43 201402242200]
+	org.netbeans.modules.xml.text/2 [1.43.1 201402242200]
+	org.netbeans.modules.xml.xam/1 [1.27.1.1 1 201402242200]
+	org.netbeans.modules.xml.schema.model/1 [1.27.1.1 1 201402242200]
+	org.netbeans.modules.xml.axi [1.26.1 201402242200]
+	org.netbeans.modules.xml.retriever/1 [1.26.1 201402242200]
+	org.netbeans.modules.xml [1.26.2 201402242200]
+	org.netbeans.modules.servletapi/1 [1.35.1 201402242200]
+	org.netbeans.modules.httpserver/2 [2.31.1.42 42 201402242200]
+	org.netbeans.modules.xsl/1 [1.38.1 201402242200]
+	org.netbeans.modules.xml.xdm/1 [1.28.1.1 1 201402242200]
+	org.netbeans.modules.xml.wsdl.model/1 [1.28.1.1 1 201402242200]
+	org.netbeans.libs.xerces/1 [1.34.1.281 281 201402242200]
+	org.netbeans.modules.xml.tax/2 [1.38.1.281 201402242200]
+	org.netbeans.modules.xml.tools/2 [1.38.1 201402242200]
+	org.netbeans.modules.xml.tools.java [1.24.1 201402242200]
+	org.netbeans.modules.xml.schema.completion [1.25.1 201402242200]
+	org.netbeans.modules.xml.multiview/1 [1.33.2.2 2 201402242200]
+	org.netbeans.modules.xml.jaxb.api/1 [1.22.1 201402242200]
+	org.netbeans.modules.xml.jaxb/1 [1.25.1 201402242200]
+	org.netbeans.modules.whitelist [1.18.1 201402242200]
+	org.netbeans.modules.sendopts/2 [2.30.1 201402242200]
+	org.netbeans.core.execution/1 [1.36.1 201402242200]
+	org.netbeans.modules.favorites/1 [1.39.1 201402242200]
+	org.netbeans.modules.projectui [1.52.1.8 201402242200]
+	org.netbeans.modules.welcome/1 [1.37.1 201402242200]
+	org.netbeans.modules.websvc.wsstackapi/0 [1.21.1 201402242200]
+	org.netbeans.modules.websvc.wsitmodelext [3.25.1 201402242200]
+	org.netbeans.modules.java.sourceui/1 [1.37.1.1.31 1 201402242200]
+	org.netbeans.modules.j2ee.metadata/0 [1.27.1 201402242200]
+	org.netbeans.modules.schema2beans/1 [1.42.1 201402242200]
+	org.netbeans.modules.j2ee.metadata.model.support/1 [1.26.1 201402242200]
+	org.netbeans.modules.j2ee.dd/1 [1.38.1.2 2 201402242200]
+	org.netbeans.modules.j2ee.core/0 [1.22.1 201402242200]
+	org.netbeans.api.web.webmodule [1.36.1 201402242200]
+	org.netbeans.modules.j2ee.dd.webservice [1.29.1 201402242200]
+	org.netbeans.libs.jaxb/1 [1.27.1 201402242200]
+	org.netbeans.modules.websvc.jaxws21api/1 [1.27.1 201402242200]
+	org.netbeans.modules.websvc.jaxws21/1 [1.28.1 201402242200]
+	org.netbeans.modules.websvc.jaxwsmodelapi/1 [1.22.1 201402242200]
+	org.netbeans.modules.websvc.jaxwsmodel/1 [1.28.1 201402242200]
+	org.netbeans.modules.websvc.jaxwsapi [1.24.1 201402242200]
+	org.netbeans.modules.j2ee.api.ejbmodule [1.35.1 201402242200]
+	org.netbeans.modules.javahelp/1 [2.36.1 201402242200]
+	org.netbeans.modules.db.metadata.model/1 [1.6.1 201402242200]
+	org.netbeans.core.ide/1 [1.36.1 201402242200]
+	org.netbeans.modules.db/1 [1.60.1.30 30 201402242200]
+	org.netbeans.modules.dbschema/1 [1.35.1.4.30 4 201402242200]
+	org.netbeans.modules.j2ee.persistenceapi/1 [1.29.1.1 1 201402242200]
+	org.netbeans.modules.dbapi [1.29.1.30 201402242200]
+	org.netbeans.modules.java.editor.lib/1 [1.33.1 201402242200]
+	org.netbeans.modules.extexecution/2 [1.41.1 201402242200]
+	org.netbeans.modules.gsf.testrunner/1 [1.42.1 201402242200]
+	org.netbeans.modules.gototest/1 [1.26.1 201402242200]
+	org.netbeans.modules.refactoring.java/1 [1.50.1.1 1 201402242200]
+	org.netbeans.modules.java.editor/1 [2.59.1.10.1.1 10 201402242200]
+	org.netbeans.modules.j2ee.eclipselink/1 [1.28.1 201402242200]
+	org.netbeans.modules.j2ee.core.utilities/0 [1.28.1 201402242200]
+	org.netbeans.modules.javaee.injection [1.2.1 201402242200]
+	org.netbeans.modules.j2ee.persistence [1.45.1.1 1 201402242200]
+	org.netbeans.api.debugger.jpda/2 [2.48.1 201402242200]
+	org.netbeans.modules.server/0 [1.28.1 201402242200]
+	org.netbeans.modules.j2eeapis/1 [1.31.1 201402242200]
+	org.netbeans.modules.j2eeserver/4 [1.106.1.1 1 201402242200]
+	org.netbeans.modules.javaee.specs.support/0 [1.19.1 201402242200]
+	org.netbeans.modules.java.api.common/0 [1.70.1 201402242200]
+	org.netbeans.modules.websvc.websvcapi [1.29.1 201402242200]
+	org.netbeans.modules.web.common [1.68.1 201402242200]
+	org.netbeans.modules.extbrowser/1 [1.47.1 201402242200]
+	org.netbeans.modules.web.browser.api [1.37.1 201402242200]
+	org.netbeans.libs.json_simple/1 [0.8.1 201402242200]
+	org.netbeans.modules.html.lexer/1 [1.34.1 201402242200]
+	org.netbeans.modules.html.editor.lib/3 [3.26.1 201402242200]
+	org.netbeans.modules.html/1 [1.55.1 201402242200]
+	org.netbeans.libs.antlr3.runtime [1.17.1.1 1 201402242200]
+	org.netbeans.modules.css.lib/1 [1.69.1 201402242200]
+	org.netbeans.modules.web.indent [1.14.1 201402242200]
+	org.netbeans.modules.css.model [1.26.1 201402242200]
+	org.netbeans.modules.css.editor/1 [1.60.1 201402242200]
+	org.netbeans.modules.html.editor/2 [2.48.1 201402242200]
+	org.netbeans.modules.web.clientproject.api [1.55.1 201402242200]
+	org.netbeans.modules.servletjspapi/1 [1.29.1.25 25 201402242200]
+	org.netbeans.libs.glassfish_logging/1 [1.24.1.20 20 201402242200]
+	org.netbeans.lib.terminalemulator [1.30.1 201402242200]
+	org.netbeans.modules.terminal [1.18.2 201402242200]
+	org.netbeans.core.output2/1 [1.36.1 201402242200]
+	org.netbeans.modules.web.jspparser/3 [3.26.1 201402242200]
+	org.netbeans.modules.java.testrunner [1.12.1 201402242200]
+	org.netbeans.modules.junit/2 [2.63.1 201402242200]
+	org.netbeans.modules.websvc.clientapi [1.30.1 201402242200]
+	org.netbeans.modules.j2ee.common/1 [1.100.1 201402242200]
+	org.netbeans.modules.javaee.project [1.13.1 201402242200]
+	org.netbeans.modules.ant.browsetask [1.36.1 201402242200]
+	org.netbeans.modules.web.project [1.67.1.1 1 201402242200]
+	org.netbeans.modules.websvc.restapi/0 [1.34.1 201402242200]
+	org.netbeans.modules.websvc.saas.api [1.26.1 201402242200]
+	org.netbeans.modules.websvc.saas.codegen [1.25.1 201402242200]
+	org.netbeans.modules.websvc.saas.codegen.java [1.25.1 201402242200]
+	org.netbeans.modules.websvc.utilities/0 [1.23.1 201402242200]
+	org.netbeans.modules.websvc.projectapi/0 [1.20.1 201402242200]
+	org.netbeans.modules.websvc.core [1.42.1.1.4 1 201402242200]
+	org.netbeans.modules.websvc.jaxws.lightapi [1.20.1 201402242200]
+	org.netbeans.modules.properties/1 [1.49.2 201402242200]
+	org.netbeans.modules.i18n/1 [1.48.1 201402242200]
+	org.netbeans.api.visual [2.42.1 201402242200]
+	org.netbeans.modules.websvc.design [1.23.1 201402242200]
+	org.netbeans.modules.websvc.wsitconf [3.29.1 201402242200]
+	org.netbeans.modules.websvc.saas.ui [1.23.1 201402242200]
+	org.netbeans.modules.websvc.saas.services.zvents [1.23.1 201402242200]
+	org.netbeans.modules.websvc.saas.services.zillow [1.23.1 201402242200]
+	org.netbeans.modules.websvc.saas.services.weatherbug [1.23.1 201402242200]
+	org.netbeans.modules.websvc.saas.services.strikeiron [1.23.1 201402242200]
+	org.netbeans.modules.websvc.saas.services.google [1.24.1 201402242200]
+	org.netbeans.modules.websvc.saas.services.flickr [1.24.1 201402242200]
+	org.netbeans.modules.websvc.saas.services.delicious [1.23.1 201402242200]
+	org.netbeans.modules.websvc.saas.services.amazon [1.24.1 201402242200]
+	org.netbeans.modules.editor.bookmarks/1 [1.32.1 201402242200]
+	org.netbeans.libs.nashorn/1 [1.15.1 201402242200]
+	org.netbeans.modules.javascript2.editor/1 [0.35.1 201402242200]
+	org.netbeans.modules.javascript2.knockout [1.3.1 201402242200]
+	org.netbeans.modules.javascript2.extjs [1.3.1 201402242200]
+	org.netbeans.modules.javascript2.jquery [1.3.1 201402242200]
+	org.netbeans.modules.javascript2.kit/1 [0.8.1 201402242200]
+	org.netbeans.modules.css.visual/3 [3.26.1 201402242200]
+	org.netbeans.libs.bytelist/1 [0.23.1.1 1 201402242200]
+	org.netbeans.libs.jvyamlb/1 [0.25.1 201402242200]
+	org.netbeans.modules.languages.yaml [2.27.1 201402242200]
+	org.netbeans.modules.editor.search [1.17.1.0.43 0 201402242200]
+	org.netbeans.modules.languages.manifest [1.27.1 201402242200]
+	org.netbeans.modules.languages.diff [1.28.1 201402242200]
+	org.netbeans.modules.image/1 [1.43.1 201402242200]
+	org.netbeans.modules.html.parser/1 [1.28.1.1 1 201402242200]
+	org.apache.commons.logging [1.1.1 1.1.1]
+	org.netbeans.modules.html.validation/1 [1.25.1 201402242200]
+	org.netbeans.modules.editor.kit [1.28.1 201402242200]
+	org.netbeans.modules.utilities/1 [1.55.1 201402242200]
+	org.netbeans.modules.tasklist.ui/1 [1.26.1.1.1 1 201402242200]
+	org.netbeans.modules.tasklist.todo/1 [1.26.1.1 1 201402242200]
+	org.netbeans.modules.tasklist.projectint/1 [1.24.1 201402242200]
+	org.netbeans.modules.tasklist.kit [1.24.1 201402242200]
+	com.jcraft.jsch [0.1.49 0.1.49]
+	org.netbeans.libs.jna/1 [1.35.1 201402242200]
+	org.netbeans.modules.dlight.nativeexecution [1.33.3.1 1 201402242200]
+	org.netbeans.modules.dlight.terminal [1.18.1.1 1 201402242200]
+	org.netbeans.modules.usersguide/1 [1.44.1 201402242200]
+	org.netbeans.core.multitabs/1 [1.7.1.1 1 201402242200]
+	org.netbeans.modules.print.editor [7.22.1 201402242200]
+	org.netbeans.core.multitabs.project [1.5.1.1.1 1 201402242200]
+	org.netbeans.modules.editor.plain.lib/1 [1.29.1 201402242200]
+	org.netbeans.modules.editor.plain/2 [1.30.1 201402242200]
+	org.netbeans.libs.osgi [1.17.1 201402242200]
+	org.netbeans.libs.felix [2.11.1 201402242200]
+	org.netbeans.modules.print [7.21.1 201402242200]
+	org.netbeans.modules.autoupdate.cli [1.8.1 201402242200]
+	org.netbeans.modules.core.kit [1.25.1 201402242200]
+	org.netbeans.modules.editor.macros/0 [1.26.1.1.22 1 201402242200]
+	org.netbeans.modules.defaults/1 [1.27.1 201402242200]
+	org.netbeans.modules.ide.kit [1.28.1 201402242200]
+	org.netbeans.modules.websvc.saas.kit [1.23.1 201402242200]
+	org.netbeans.modules.websvc.saas.codegen.php [1.24.1 201402242200]
+	org.netbeans.modules.websvc.saas.codegen.j2ee [1.23.1 201402242200]
+	org.netbeans.modules.websvc.restlib/2 [2.4.1 201402242200]
+	org.netbeans.modules.websvc.owsm [1.11.1 201402242200]
+	org.netbeans.modules.websvc.manager [1.26.1 201402242200]
+	org.netbeans.modules.websvc.editor.hints [1.25.1 201402242200]
+	org.netbeans.libs.swingx/1 [1.23.1 201402242200]
+	org.netbeans.modules.db.dataview [1.24.1 201402242200]
+	org.netbeans.modules.db.core [1.31.1 201402242200]
+	org.netbeans.modules.db.sql.editor [1.31.1.30 201402242200]
+	org.netbeans.modules.db.sql.visualeditor/1 [2.26.1.30 201402242200]
+	org.netbeans.modules.db.mysql [0.23.1.2 2 201402242200]
+	org.netbeans.modules.derby [1.35.1 201402242200]
+	org.netbeans.modules.db.drivers [1.25.1 201402242200]
+	org.netbeans.modules.db.kit [1.26.1 201402242200]
+	org.netbeans.modules.websvc.metro.samples/1 [1.24.1 201402242200]
+	org.netbeans.modules.websvc.customization [1.24.1.2 201402242200]
+	org.netbeans.modules.java.hints.legacy.spi/1 [1.10.1.1.13 1 201402242200]
+	org.netbeans.modules.web.beans/2 [2.14.1 201402242200]
+	org.netbeans.modules.debugger.jpda.projects [1.29.1 201402242200]
+	org.netbeans.modules.debugger.jpda/2 [1.69.1.80 80 201402242200]
+	org.netbeans.modules.debugger.jpda.ui/1 [1.42.1 201402242200]
+	org.netbeans.modules.web.debug/1 [2.34.1 201402242200]
+	org.netbeans.modules.web.examples/1 [1.31.1 201402242200]
+	org.netbeans.modules.j2ee.samples [1.26.1 201402242200]
+	org.netbeans.modules.web.monitor/1 [1.40.1 201402242200]
+	org.netbeans.modules.websocket [1.4.1 201402242200]
+	org.netbeans.modules.javascript2.debug/1 [1.2.1 201402242200]
+	org.netbeans.modules.web.webkit.debugging [1.31.1 201402242200]
+	org.netbeans.modules.web.javascript.debugger [1.9.1 201402242200]
+	org.netbeans.modules.j2ee.ant [1.32.1.1 201402242200]
+	org.netbeans.modules.j2ee.weblogic9/1 [1.37.1.1 1 201402242200]
+	org.netbeans.modules.javaee.resources [1.7.1 201402242200]
+	org.netbeans.modules.j2ee.ejbcore [1.48.1 201402242200]
+	org.netbeans.modules.j2ee.ddloaders/1 [1.35.1.2 201402242200]
+	org.netbeans.modules.javaee.api [1.19.1 201402242200]
+	org.netbeans.modules.j2ee.jboss4/1 [1.35.1 201402242200]
+	org.netbeans.modules.websvc.rest/0 [1.26.1 201402242200]
+	org.netbeans.modules.web.client.rest [1.11.1 201402242200]
+	org.netbeans.modules.java.navigation/1 [1.34.1 201402242200]
+	org.netbeans.modules.beans/1 [1.45.1.1.10 1 201402242200]
+	org.netbeans.modules.ant.freeform/1 [1.41.1 201402242200]
+	org.netbeans.modules.java.freeform/1 [1.38.1 201402242200]
+	org.netbeans.modules.java.j2seplatform/1 [1.36.1 201402242200]
+	org.netbeans.modules.projectimport.eclipse.core/1 [2.25.1 201402242200]
+	org.netbeans.modules.debugger.jpda.ant [1.33.1 201402242200]
+	org.netbeans.modules.java.j2seproject/1 [1.74.1.48 48 201402242200]
+	org.netbeans.modules.java.j2sedeploy [1.7.1 201402242200]
+	org.netbeans.modules.java.hints/1 [1.75.1.15.10.1.31.1.13 15 201402242200]
+	org.netbeans.modules.java.j2seembedded [1.4.1 201402242200]
+	org.netbeans.modules.javadoc/1 [1.49.1 201402242200]
+	org.netbeans.modules.spellchecker.apimodule [1.20.1 201402242200]
+	org.netbeans.modules.spellchecker.bindings.java/1 [1.25.1 201402242200]
+	org.jdesktop.beansbinding/1 [1.23.1.121 121 201402242200]
+	org.netbeans.modules.nashorn.execution/1 [1.1.1 201402242200]
+	org.netbeans.modules.java.examples/1 [1.31.1 201402242200]
+	org.netbeans.modules.java.j2seprofiles [1.3.1 201402242200]
+	org.netbeans.modules.findbugs.installer [1.11.1 201402242200]
+	org.netbeans.modules.java.debug [1.32.1.1.25.31 1 201402242200]
+	org.netbeans.modules.java.hints.ui [1.12.1.1.13 1 201402242200]
+	org.netbeans.modules.java.hints.declarative/1 [1.15.1.1.15.1.13 1 201402242200]
+	org.netbeans.modules.java.source.ant [1.25.1.1.31 1 201402242200]
+	org.netbeans.modules.javawebstart [1.27.1 201402242200]
+	org.netbeans.modules.ant.debugger/1 [1.32.1.2 201402242200]
+	org.netbeans.modules.projectui.buildmenu/1 [1.22.1.1 1 201402242200]
+	org.netbeans.modules.ant.kit [1.25.1 201402242200]
+	org.netbeans.modules.java.kit [1.28.1 201402242200]
+	org.netbeans.modules.j2ee.eclipselinkmodelgen/1 [1.28.1 201402242200]
+	org.netbeans.modules.j2ee.jpa.verification [1.30.1 201402242200]
+	org.netbeans.modules.j2ee.jpa.refactoring [1.26.1 201402242200]
+	org.netbeans.modules.j2ee.persistence.kit [1.27.1 201402242200]
+	org.netbeans.modules.web.inspect [0.21.1 201402242200]
+	org.netbeans.modules.languages.apacheconf [1.12.1 201402242200]
+	org.netbeans.modules.el.lexer/1 [1.26.1 201402242200]
+	org.netbeans.modules.j2ee.sun.dd/1 [1.31.1.1 1 201402242200]
+	org.netbeans.libs.glassfish.sdk [1.27.1 201402242200]
+	org.netbeans.modules.glassfish.eecommon/0 [1.32.1.1.1 1 201402242200]
+	org.jdesktop.layout/1 [1.29.1 201402242200]
+	org.netbeans.modules.glassfish.common/0 [1.59.1 201402242200]
+	org.netbeans.modules.j2ee.sun.appsrv/1 [1.31.1.1 1 201402242200]
+	org.netbeans.modules.j2ee.sun.ddui/1 [1.32.1.1.1 1 201402242200]
+	org.netbeans.modules.glassfish.javaee/0 [1.33.1 201402242200]
+	org.netbeans.libs.elimpl/1 [1.18.1.1 1 201402242200]
+	org.netbeans.modules.web.el [1.47.1 201402242200]
+	org.netbeans.modules.jsp.lexer/1 [1.24.1 201402242200]
+	org.netbeans.modules.target.iterator/1 [1.18.1 201402242200]
+	org.netbeans.modules.web.core/2 [2.30.1.45.2 45 201402242200]
+	org.netbeans.modules.web.core.syntax/2 [2.41.1.2.10 2 201402242200]
+	org.netbeans.modules.web.jsfapi/1 [1.31.1 201402242200]
+	org.netbeans.modules.web.freeform [1.30.1 201402242200]
+	org.netbeans.modules.web.clientproject [1.51.1 201402242200]
+	org.netbeans.modules.web.client.samples [1.8.1 201402242200]
+	org.netbeans.modules.javascript.karma/0 [0.3.1 201402242200]
+	org.netbeans.modules.netserver [1.10.1 201402242200]
+	org.netbeans.modules.extbrowser.chrome [1.7.1 201402242200]
+	org.netbeans.modules.web.webkit.tooling [1.6.1 201402242200]
+	org.netbeans.libs.jstestdriver [1.7.1 201402242200]
+	org.netbeans.modules.javascript.jstestdriver [0.3.1 201402242200]
+	org.netbeans.modules.web.client.kit [1.8.1 201402242200]
+	org.netbeans.libs.jstl/1 [2.33.1.123 123 201402242200]
+	org.netbeans.modules.tomcat5/1 [1.40.1 201402242200]
+	org.netbeans.modules.javaee.beanvalidation [1.17.1 201402242200]
+	org.netbeans.modules.j2ee.genericserver [1.29.1 201402242200]
+	org.netbeans.modules.cloud.common [1.9.1 201402242200]
+	org.netbeans.libs.amazon/1 [1.9.1 201402242200]
+	org.netbeans.modules.cloud.amazon/0 [1.10.1 201402242200]
+	org.netbeans.modules.web.refactoring [1.24.1.45 201402242200]
+	org.netbeans.modules.web.kit [1.26.1 201402242200]
+	org.netbeans.modules.websvc.metro.model [1.21.1 201402242200]
+	org.netbeans.modules.websvc.metro.lib/1 [1.26.1 201402242200]
+	org.netbeans.modules.websvc.kit [1.25.1 201402242200]
+	org.netbeans.modules.websvc.rest.samples/0 [1.21.1 201402242200]
+	org.netbeans.modules.apisupport.restsample [1.16.1 201402242200]
+	org.netbeans.modules.websvc.restkit/0 [1.23.1 201402242200]
+	org.netbeans.libs.commons_fileupload/1 [1.24.1 201402242200]
+	org.netbeans.modules.web.struts/1 [1.31.1.1 1 201402242200]
+	org.netbeans.modules.web.jsf/1 [1.67.1.2 2 201402242200]
+	org.netbeans.modules.web.jsf.navigation/1 [2.24.1 201402242200]
+	org.netbeans.modules.web.jsf20/1 [1.30.1.1 1 201402242200]
+	org.netbeans.modules.web.jsf12/1 [1.23.1.12 12 201402242200]
+	org.netbeans.modules.web.jsf12ri/1 [1.23.1.12 12 201402242200]
+	org.netbeans.modules.web.jsf.editor [1.47.1 201402242200]
+	org.netbeans.modules.web.jsf.kit [1.25.1 201402242200]
+	org.netbeans.modules.web.primefaces [1.69.1 201402242200]
+	org.netbeans.modules.web.jsf.richfaces [1.26.1 201402242200]
+	org.netbeans.modules.web.jsf.icefaces [1.14.1 201402242200]
+	org.netbeans.modules.versioning.core/1 [1.20.1.1.42 1 201402242200]
+	org.netbeans.modules.versioning/1 [1.42.1.1 1 201402242200]
+	org.netbeans.modules.versioning.util [1.57.1.42.1 201402242200]
+	org.netbeans.modules.team.commons [1.40.1 201402242200]
+	org.netbeans.modules.versioning.ui/1 [1.17.1.42.1 201402242200]
+	org.netbeans.modules.versioning.system.cvss.installer [1.11.1 201402242200]
+	org.netbeans.modules.versioning.masterfs [1.9.1 201402242200]
+	org.netbeans.modules.versioning.indexingbridge/0 [1.20.1 201402242200]
+	org.netbeans.modules.utilities.project/1 [1.33.1 201402242200]
+	org.netbeans.modules.updatecenters/1 [1.35.1 201402242200]
+	org.netbeans.lib.uihandler [1.40.1 201402242200]
+	org.netbeans.modules.uihandler [2.30.1 201402242200]
+	org.netbeans.modules.uihandler.exceptionreporter [1.24.1 201402242200]
+	org.netbeans.libs.testng/1 [1.10.1 201402242200]
+	org.netbeans.modules.maven.embedder/2 [2.45.1 201402242200]
+	org.netbeans.modules.maven.model/1 [1.37.1 201402242200]
+	org.netbeans.modules.maven.indexer/2 [2.30.1 201402242200]
+	org.netbeans.modules.swing.validation/2 [1.27.1 201402242200]
+	org.apache.commons.codec [1.3.0 1.3.0]
+	org.netbeans.modules.maven/2 [2.103.1 201402242200]
+	org.netbeans.modules.testng [2.14.1 201402242200]
+	org.netbeans.modules.testng.maven [2.11.1 201402242200]
+	org.netbeans.modules.testng.ant [2.10.1 201402242200]
+	org.netbeans.modules.templates/1 [1.2.1 201402242200]
+	org.netbeans.modules.team.ide [1.8.1 201402242200]
+	org.netbeans.libs.svnClientAdapter/1 [1.35.1 201402242200]
+	org.netbeans.libs.ini4j/1 [1.26.1 201402242200]
+	org.netbeans.modules.subversion [1.36.1.42.1 201402242200]
+	org.netbeans.libs.cglib/1 [1.22.1 201402242200]
+	org.netbeans.libs.springframework/1 [1.33.1 201402242200]
+	org.netbeans.modules.spring.beans/0 [1.34.1.1 1 201402242200]
+	org.netbeans.modules.spring.webmvc [1.34.1 201402242200]
+	org.netbeans.modules.spellchecker [1.30.1.1.7 1 201402242200]
+	org.netbeans.modules.spellchecker.kit [1.21.1 201402242200]
+	org.netbeans.modules.spellchecker.dictionary_en [1.18.1 201402242200]
+	org.netbeans.modules.properties.syntax/1 [1.45.1 201402242200]
+	org.netbeans.modules.spellchecker.bindings.properties [1.17.1 201402242200]
+	org.netbeans.modules.spellchecker.bindings.htmlxml [1.22.1 201402242200]
+	org.netbeans.modules.dlight.libs.common [1.31.1.1 1 201402242200]
+	org.netbeans.modules.dlight.remote [1.24.2.1 1 201402242200]
+	org.netbeans.modules.dlight.remote.impl [1.22.1.1 1 201402242200]
+	org.netbeans.modules.remotefs.versioning [1.10.1.1 1 201402242200]
+	org.netbeans.modules.projectimport.eclipse.web [1.22.1.1 201402242200]
+	org.netbeans.modules.projectimport.eclipse.j2se [1.23.1.48 201402242200]
+	org.netbeans.modules.progress.ui [1.28.1 201402242200]
+	org.netbeans.modules.profiler.utilities/1 [1.30.1 201402242200]
+	org.netbeans.lib.profiler/1 [1.54.1 201402242200]
+	org.netbeans.lib.profiler.common/1 [1.30.1 201402242200]
+	org.netbeans.modules.profiler.api/1 [1.17.1 201402242200]
+	org.netbeans.lib.profiler.charts/1 [1.23.1 201402242200]
+	org.netbeans.lib.profiler.ui/1 [1.43.1 201402242200]
+	org.netbeans.modules.profiler.attach/2 [2.13.1 201402242200]
+	org.netbeans.modules.profiler.selector.api/1 [1.28.1 201402242200]
+	org.netbeans.modules.profiler.selector.ui/1 [1.25.1 201402242200]
+	org.netbeans.modules.profiler/2 [2.20.1 201402242200]
+	org.netbeans.modules.profiler.ppoints [1.13.1 201402242200]
+	org.netbeans.modules.profiler.stp [1.11.1 201402242200]
+	org.netbeans.modules.profiler.snaptracer/1 [1.16.1 201402242200]
+	org.netbeans.modules.profiler.projectsupport [1.27.1 201402242200]
+	org.netbeans.modules.profiler.oql/2 [2.11.1 201402242200]
+	org.netbeans.modules.profiler.oql.language/0 [0.24.1 201402242200]
+	org.netbeans.modules.profiler.options [1.12.1 201402242200]
+	org.netbeans.modules.profiler.categorization.api/1 [1.12.1 201402242200]
+	org.netbeans.modules.profiler.nbimpl/1 [1.13.1 201402242200]
+	org.netbeans.modules.profiler.nbmodule/1 [1.29.1 201402242200]
+	org.netbeans.modules.profiler.heapwalker [1.98.1 201402242200]
+	org.netbeans.modules.profiler.drilldown/1 [1.11.1 201402242200]
+	org.netbeans.modules.profiler.kit [1.13.1 201402242200]
+	org.netbeans.modules.profiler.j2se/1 [1.30.1 201402242200]
+	org.netbeans.modules.profiler.j2ee/1 [1.30.1 201402242200]
+	org.netbeans.modules.profiler.freeform/1 [1.29.1 201402242200]
+	org.netbeans.modules.php.api.phpmodule [2.39.1 201402242200]
+	org.netbeans.modules.php.api.executable/0 [0.22.1 201402242200]
+	org.netbeans.modules.php.api.editor/0 [0.18.1 201402242200]
+	org.netbeans.modules.php.api.annotation/0 [0.13.1 201402242200]
+	org.netbeans.modules.php.api.framework/0 [0.18.1 201402242200]
+	org.netbeans.modules.php.samples [1.25.1 201402242200]
+	org.netbeans.modules.php.api.templates/0 [0.7.1 201402242200]
+	org.netbeans.libs.javacup/1 [1.22.1.11 11 201402242200]
+	org.netbeans.modules.languages.neon [1.17.1 201402242200]
+	org.netbeans.modules.php.api.testing/0 [0.13.1 201402242200]
+	org.netbeans.modules.gsf.codecoverage [1.26.1 201402242200]
+	org.netbeans.modules.php.api.documentation/0 [0.8.1 201402242200]
+	org.netbeans.libs.commons_net/2 [2.16.1.33 33 201402242200]
+	org.netbeans.libs.jna.platform/1 [1.5.1 201402242200]
+	org.netbeans.libs.jsch.agentproxy/1 [0.7.1 201402242200]
+	org.netbeans.modules.php.project [2.112.1 201402242200]
+	org.netbeans.modules.php.editor [1.51.1.2 2 201402242200]
+	org.netbeans.modules.php.dbgp [1.34.1 201402242200]
+	org.netbeans.modules.php.code.analysis [0.8.1 201402242200]
+	org.netbeans.modules.php.refactoring [1.27.1 201402242200]
+	org.netbeans.modules.php.phpdoc.documentation [0.17.1 201402242200]
+	org.netbeans.modules.php.kit [1.57.1 201402242200]
+	org.netbeans.modules.php.composer/0 [0.19.1 201402242200]
+	org.netbeans.modules.php.zend2 [0.11.1 201402242200]
+	org.netbeans.modules.languages.ini [1.19.1 201402242200]
+	org.netbeans.modules.php.zend [1.26.1 201402242200]
+	org.netbeans.modules.php.twig/1 [1.19.1 201402242200]
+	org.netbeans.modules.php.symfony2/1 [1.21.1 201402242200]
+	org.netbeans.modules.php.symfony [1.38.1 201402242200]
+	org.netbeans.modules.php.smarty [1.82.1 201402242200]
+	org.netbeans.modules.php.phpunit/0 [0.17.1 201402242200]
+	org.netbeans.modules.php.nette2/1 [1.5.1 201402242200]
+	org.netbeans.modules.php.nette.tester [0.6.1 201402242200]
+	org.netbeans.modules.php.latte/1 [1.9.1 201402242200]
+	org.netbeans.modules.php.doctrine2 [1.22.1 201402242200]
+	org.netbeans.modules.php.atoum [0.10.1 201402242200]
+	org.netbeans.modules.php.apigen [1.22.1 201402242200]
+	org.netbeans.modules.parsing.ui [1.9.1 201402242200]
+	org.netbeans.modules.notifications [1.3.1 201402242200]
+	org.netbeans.core.netigso [1.26.1 201402242200]
+	org.netbeans.modules.netbinox [1.34.1 201402242200]
+	org.eclipse.equinox.common [3.6.0 3.6.0.v20110523]
+	org.eclipse.mylyn.tasks.core [3.10.0 3.10.0.20131010-2023]
+	org.eclipse.core.runtime [3.7.0 3.7.0.v20110110]
+	org.eclipse.mylyn.commons.net [3.10.0 3.10.0.20131018-1210]
+	org.eclipse.core.jobs [3.5.101 3.5.101.v20120113-1953]
+	org.eclipse.mylyn.wikitext.core [1.9.0 1.9.0.20131007-2055]
+	org.netbeans.modules.bugtracking [1.101.1 201402242200]
+	org.netbeans.modules.mylyn.util [1.27.1 201402242200]
+	org.netbeans.modules.mercurial [1.36.1.42.1 201402242200]
+	org.netbeans.modules.maven.spring/1 [1.24.1 201402242200]
+	org.netbeans.modules.maven.grammar/1 [1.41.1.1 201402242200]
+	org.netbeans.modules.maven.repository/1 [1.37.1 201402242200]
+	org.netbeans.modules.maven.refactoring [1.15.1 201402242200]
+	org.netbeans.modules.maven.coverage [1.18.1 201402242200]
+	org.netbeans.modules.maven.graph/1 [1.27.1 201402242200]
+	org.netbeans.modules.maven.checkstyle [1.12.1 201402242200]
+	org.netbeans.modules.maven.osgi/1 [1.29.1 201402242200]
+	org.netbeans.modules.maven.kit/1 [4.26.1 201402242200]
+	org.netbeans.modules.maven.search [1.27.1 201402242200]
+	org.netbeans.modules.maven.samples/1 [1.21.1 201402242200]
+	org.netbeans.modules.maven.profiler/1 [1.25.1 201402242200]
+	org.netbeans.modules.maven.persistence/1 [1.24.1 201402242200]
+	org.netbeans.modules.maven.junit/1 [1.27.1 201402242200]
+	org.netbeans.modules.maven.jaxws [1.25.1 201402242200]
+	org.netbeans.modules.maven.j2ee/1 [1.53.1 201402242200]
+	org.netbeans.modules.maven.hints/1 [1.35.1 201402242200]
+	org.netbeans.libs.freemarker/1 [2.29.1.238 238 201402242200]
+	org.netbeans.modules.apisupport.project/1 [1.70.1 201402242200]
+	org.netbeans.modules.maven.apisupport/1 [1.53.1 201402242200]
+	org.netbeans.modules.masterfs.nio2 [1.11.1 201402242200]
+	org.netbeans.modules.masterfs.linux [1.9.1 201402242200]
+	org.netbeans.modules.bugtracking.commons [1.2.1 201402242200]
+	org.netbeans.modules.localtasks [1.20.1 201402242200]
+	org.netbeans.modules.localhistory [1.29.1 201402242200]
+	org.netbeans.modules.lexer.nbbridge/1 [1.27.1.1 201402242200]
+	org.netbeans.modules.keyring.fallback [1.3.1 201402242200]
+	org.netbeans.modules.keyring.impl [1.18.1 201402242200]
+	org.netbeans.modules.javaee7.api [1.3.1 201402242200]
+	org.netbeans.modules.java.source.queries [1.13.1 201402242200]
+	org.netbeans.modules.java.source.queriesimpl [1.12.1 201402242200]
+	org.netbeans.modules.java.metrics [1.3.1 201402242200]
+	org.netbeans.modules.java.guards/0 [0.26.1 201402242200]
+	org.netbeans.modules.j2ee.platform/1 [1.29.1 201402242200]
+	org.netbeans.modules.j2ee.ejbrefactoring [1.23.1 201402242200]
+	org.netbeans.modules.j2ee.clientproject [1.43.1.1 1 201402242200]
+	org.netbeans.modules.j2ee.ejbverification [1.29.1 201402242200]
+	org.netbeans.modules.j2ee.ejbjarproject [1.50.1 201402242200]
+	org.netbeans.modules.j2ee.earproject [1.48.1 201402242200]
+	org.netbeans.modules.j2ee.kit [1.23.1 201402242200]
+	org.netbeans.modules.ide.ergonomics [1.24.1 201402242200]
+	org.netbeans.modules.autoupdate.pluginimporter [1.15.1 201402242200]
+	org.netbeans.modules.ide.branding/1 [1.28.1 201402242200]
+	org.netbeans.modules.deadlock.detector [1.1.1 201402242200]
+	org.netbeans.modules.ide.branding.kit [1.24.1 201402242200]
+	org.netbeans.modules.form/2 [1.52.1.4 4 201402242200]
+	org.netbeans.modules.form.nb/0 [0.13.1.1.4 1 201402242200]
+	org.netbeans.modules.i18n.form/2 [1.45.1.4.1 201402242200]
+	org.netbeans.modules.hudson [2.5.1 201402242200]
+	org.netbeans.modules.hudson.ui [1.5.1 201402242200]
+	org.netbeans.modules.hudson.tasklist [1.12.1 201402242200]
+	org.netbeans.modules.hudson.subversion [1.24.1 201402242200]
+	org.netbeans.modules.hudson.php [1.15.1 201402242200]
+	org.netbeans.modules.hudson.mercurial [1.24.1 201402242200]
+	org.netbeans.modules.hudson.maven [1.24.1 201402242200]
+	org.netbeans.modules.hudson.git [1.13.1 201402242200]
+	org.netbeans.modules.hudson.ant [1.22.1 201402242200]
+	org.netbeans.modules.html.knockout [1.5.1 201402242200]
+	org.netbeans.modules.html.custom [1.1.1 201402242200]
+	org.netbeans.core.browser/1 [1.23.1.1 1 201402242200]
+	org.netbeans.modules.html.angular [1.6.1 201402242200]
+	org.netbeans.modules.hibernate4lib/1 [1.1.1.238 201402242200]
+	org.netbeans.modules.hibernate/1 [1.27.1.1 1 201402242200]
+	org.netbeans.modules.hibernateweb [1.21.1 201402242200]
+	org.eclipse.jgit [3.2.0 3.2.0.201312181205-r]
+	org.netbeans.libs.git/1 [1.19.1 201402242200]
+	org.netbeans.modules.git [1.14.1.1 201402242200]
+	org.netbeans.modules.form.refactoring/0 [0.12.1.1.4.1 1 201402242200]
+	org.netbeans.modules.form.binding/0 [0.12.1.1.4.1 1 201402242200]
+	org.netbeans.modules.form.kit [1.24.1 201402242200]
+	org.netbeans.modules.form.j2ee/0 [0.28.1.1.4.1 1 201402242200]
+	org.apache.commons.io [1.4 1.4]
+	org.netbeans.modules.extexecution.impl [1.20.1 201402242200]
+	org.netbeans.modules.editor.mimelookup.impl/1 [1.26.1 201402242200]
+	org.netbeans.modules.editor.global.format/1 [1.10.1.1 1 201402242200]
+	org.netbeans.modules.dlight.kit [1.21.1.1 1 201402242200]
+	org.netbeans.modules.debugger.jpda.visual/1 [1.12.1 201402242200]
+	org.netbeans.modules.debugger.jpda.js/1 [1.1.1 201402242200]
+	org.netbeans.modules.debugger.jpda.kit [1.11.1 201402242200]
+	org.netbeans.modules.debugger.jpda.heapwalk/1 [1.26.1 201402242200]
+	org.netbeans.modules.css.prep [1.20.1 201402242200]
+	org.netbeans.libs.plist [1.3.1 201402242200]
+	org.netbeans.modules.cordova.platforms [1.31.1 201402242200]
+	org.netbeans.modules.cordova.platforms.ios [1.23.1 201402242200]
+	org.netbeans.modules.cordova.platforms.android [1.23.1 201402242200]
+	org.netbeans.modules.cordova [1.25.1 201402242200]
+	org.netbeans.modules.cnd.utils [1.42.4.2 2 201402242200]
+	org.netbeans.modules.cnd.lexer/1 [1.29.2.1 1 201402242200]
+	org.netbeans.modules.cnd.source [1.18.1.1 1 201402242200]
+	org.netbeans.modules.cnd.api.project/1 [1.30.4.1 1 201402242200]
+	org.netbeans.modules.cnd.api.remote/1 [1.21.2.1 1 201402242200]
+	org.netbeans.modules.cnd.toolchain [1.28.5.1 1 201402242200]
+	org.netbeans.modules.cnd/1 [1.32.1.1 1 201402242200]
+	org.netbeans.modules.cnd.api.model/1 [1.30.4.1 1 201402242200]
+	org.netbeans.modules.cnd.modelutil/1 [1.30.4.1 1 201402242200]
+	org.netbeans.modules.cnd.makeproject/2 [2.47.9.1 1 201402242200]
+	org.netbeans.modules.cnd.testrunner [1.19.1.1 1 201402242200]
+	org.netbeans.modules.cnd.script [1.17.2.1 1 201402242200]
+	org.netbeans.modules.cnd.spellchecker.bindings/1 [1.26.1.1 1 201402242200]
+	org.netbeans.modules.cnd.model.services/1 [1.38.9.1 1 201402242200]
+	org.netbeans.modules.cnd.simpleunit [1.17.1.1.1 1 201402242200]
+	org.netbeans.modules.cnd.search [1.9.1 201402242200]
+	org.netbeans.modules.cnd.repository.api/1 [1.27.3.1 1 201402242200]
+	org.netbeans.modules.cnd.repository [1.26.1.1 1 201402242200]
+	org.netbeans.modules.cnd.remote [1.23.1.1 1 201402242200]
+	org.netbeans.modules.cnd.discovery [1.41.7.1 1 201402242200]
+	org.netbeans.modules.cnd.dwarfdump [1.30.2.1 1 201402242200]
+	org.netbeans.modules.cnd.remote.projectui [1.11.1.1 1 201402242200]
+	org.netbeans.modules.cnd.indexing [1.8.1.1 1 201402242200]
+	org.netbeans.modules.cnd.editor/1 [1.26.1.1 1 201402242200]
+	org.netbeans.modules.cnd.refactoring/1 [1.25.1.1 1 201402242200]
+	org.netbeans.modules.cnd.qnavigator/1 [1.27.1.1 1 201402242200]
+	org.netbeans.modules.cnd.callgraph [1.22.1.1 1 201402242200]
+	org.netbeans.modules.cnd.navigation [1.29.1.1 1 201402242200]
+	org.netbeans.modules.cnd.highlight [1.27.1.1.1 1 201402242200]
+	org.netbeans.modules.cnd.antlr [2.33.1.1 1 201402242200]
+	org.netbeans.modules.cnd.apt [1.38.3.1 1 201402242200]
+	org.netbeans.modules.cnd.modelimpl/1 [1.47.3.1 1 201402242200]
+	org.netbeans.modules.cnd.modelui [1.29.1.1 1 201402242200]
+	org.netbeans.modules.cnd.modeldiscovery [1.26.1.1 1 201402242200]
+	org.netbeans.modules.cnd.makeproject.source.bridge [1.21.1.1 1 201402242200]
+	org.netbeans.modules.cnd.asm/1 [1.24.1.2 2 201402242200]
+	org.netbeans.modules.cnd.classview/1 [1.26.1.1 1 201402242200]
+	org.netbeans.modules.cnd.debugger.common2/3 [3.23.4.3 3 201402242200]
+	org.netbeans.modules.cnd.debugger.gdb2/1 [1.17.3.1 1 201402242200]
+	org.netbeans.modules.cnd.completion/1 [1.29.1.1 1 201402242200]
+	org.netbeans.modules.cnd.gotodeclaration [1.27.1.1 1 201402242200]
+	org.netbeans.modules.cnd.cncppunit [1.18.1.1.1 1 201402242200]
+	org.netbeans.modules.cnd.dwarfdiscovery [1.28.1.1 1 201402242200]
+	org.netbeans.modules.cnd.folding [1.26.1.1 1 201402242200]
+	org.netbeans.modules.cnd.kit [1.26.1.1 1 201402242200]
+	org.eclipse.mylyn.bugzilla.core [3.10.0 3.10.0.20131024-1218]
+	org.apache.commons.httpclient [3.1.0 3.1.0]
+	org.netbeans.modules.bugzilla [1.71.1 201402242200]
+	org.netbeans.modules.bugzilla.exceptionreporter [1.19.1 201402242200]
+	org.netbeans.modules.bugtracking.bridge [1.40.1 201402242200]
+	org.netbeans.modules.apisupport.wizards [1.14.1 201402242200]
+	org.netbeans.modules.apisupport.refactoring [1.31.1 201402242200]
+	org.netbeans.modules.apisupport.ant [2.66.1 201402242200]
+	org.netbeans.modules.apisupport.paintapp [1.26.1 201402242200]
+	org.netbeans.modules.apisupport.osgidemo [1.18.1 201402242200]
+	org.netbeans.modules.apisupport.feedreader/1 [1.29.1 201402242200]
+	org.netbeans.modules.apisupport.harness [1.38.1 201402242200]
+	org.netbeans.libs.nbi.ant [1.18.1 201402242200]
+	org.netbeans.libs.nbi.engine [1.17.1 201402242200]
+	org.netbeans.modules.apisupport.installer [1.18.1 201402242200]
+	org.netbeans.modules.apisupport.crudsample [1.18.1 201402242200]
+	org.netbeans.modules.apisupport.kit [1.26.1 201402242200]
+	org.netbeans.modules.apisupport.installer.maven [1.17.1 201402242200]
+	org.netbeans.modules.ant.grammar/1 [1.39.1 201402242200]
+	org.netbeans.libs.svnClientAdapter.svnkit/1 [1.20.1 201402242200]
+	org.netbeans.libs.svnClientAdapter.javahl/1 [1.19.1 201402242200]
+	org.netbeans.libs.javafx [2.3.1 201402242200]
+	org.netbeans.core.network [1.4.1 201402242200]
+	org.netbeans.core.nativeaccess/1 [1.26.1 201402242200]
+	org.netbeans.core.io.ui/1 [1.25.1 201402242200]
+	org.netbeans.core.browser.webview/1 [1.10.1.1.1 1 201402242200]
+	org.eclipse.mylyn.commons.xmlrpc [3.10.0 3.10.0.20130704-2116]
+	org.eclipse.mylyn.commons.repositories.core [1.2.0 1.2.0.20130704-2116]
+	org.eclipse.mylyn.commons.core [3.10.0 3.10.0.20130926-1710]
+	org.eclipse.equinox.security [1.1.1 1.1.1.R37x_v20110822-1018]
+	org.eclipse.equinox.registry [3.5.200 3.5.200.v20120522-1841]
+	org.eclipse.equinox.preferences [3.4.2 3.4.2.v20120111-2020]
+	org.eclipse.equinox.app [1.3.100 1.3.100.v20110321]
+	org.eclipse.core.runtime.compatibility.auth [3.2.200 3.2.200.v20110110]
+	org.eclipse.core.net [1.2.100 1.2.100.I20110511-0800]
+	org.eclipse.core.contenttype [3.4.100 3.4.100.v20110423-0524]
+	org.apache.xmlrpc [3.0.0 3.0.0]
+	org.apache.ws.commons.util [1.0.1 1.0.1]
+	org.apache.commons.lang [2.4.0 2.4.0]
+	javaewah.dummy [0.5.6 0.5.6]
+	com.jcraft.jzlib [1.0.7 1.0.7]
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.confluence.core@1.9.0.20131007-2055 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.textile.core@1.9.0.20131007-2055 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 started
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy resolver: KDE
+WARNING [org.netbeans.core.network.proxy.kde.KdeNetworkProxy]: KDE system proxy resolver: The kioslaverc key not found (ProxyType)
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading failed! Trying fallback resolver.
+INFO [org.netbeans.core.network.proxy.fallback.FallbackNetworkProxy]: Fallback system proxy resolver: no http_proxy variable found
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded. Fallback provider was successful.
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
+INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
+INFO [org.netbeans.modules.uihandler.Installer]: findIdentity: 744ce1f1-c696-46bd-912e-00102dc44926_699a7160-1c7e-4640-ad44-490576bd2afb
+Diagnostic information
+Input arguments:
+	-Djdk.home=/usr/lib/jvm/java-7-oracle
+	-Dnetbeans.default_userdir_root=/home/marcos/.netbeans
+	-Dnetbeans.running.environment=kde
+	-Dnetbeans.dirs=/usr/local/netbeans-8.0rc1/nb:/usr/local/netbeans-8.0rc1/ergonomics:/usr/local/netbeans-8.0rc1/ide:/usr/local/netbeans-8.0rc1/extide:/usr/local/netbeans-8.0rc1/java:/usr/local/netbeans-8.0rc1/apisupport:/usr/local/netbeans-8.0rc1/webcommon:/usr/local/netbeans-8.0rc1/websvccommon:/usr/local/netbeans-8.0rc1/enterprise:/usr/local/netbeans-8.0rc1/mobility:/usr/local/netbeans-8.0rc1/profiler:/usr/local/netbeans-8.0rc1/python:/usr/local/netbeans-8.0rc1/php:/usr/local/netbeans-8.0rc1/identity:/usr/local/netbeans-8.0rc1/harness:/usr/local/netbeans-8.0rc1/cnd:/usr/local/netbeans-8.0rc1/dlight:/usr/local/netbeans-8.0rc1/groovy:/usr/local/netbeans-8.0rc1/extra:/usr/local/netbeans-8.0rc1/javacard:/usr/local/netbeans-8.0rc1/javafx::/home/marcos/NetBeansProjects/stackoverflowNetbeansPlugin/build/cluster
+	-Dnetbeans.home=/usr/local/netbeans-8.0rc1/platform
+	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
+	-Dnetbeans.accept_license_class=org.netbeans.license.AcceptLicense
+	-XX:MaxPermSize=384m
+	-Xmx1024m
+	-Xss2m
+	-Xms32m
+	-XX:PermSize=32m
+	-Dapple.laf.useScreenMenuBar=true
+	-Dapple.awt.graphics.UseQuartz=true
+	-Dsun.java2d.noddraw=true
+	-Dsun.java2d.dpiaware=true
+	-Dsun.zip.disableMemoryMapping=true
+	-Dnetbeans.logger.console=true
+	-ea
+	-XX:+HeapDumpOnOutOfMemoryError
+	-XX:HeapDumpPath=/home/marcos/NetBeansProjects/stackoverflowNetbeansPlugin/build/testuserdir/var/log/heapdump.hprof
+Compiler: HotSpot 64-Bit Tiered Compilers
+Heap memory usage: initial 32.0MB maximum 910.5MB
+Non heap memory usage: initial 34.4MB maximum 432.0MB
+Garbage collector: PS Scavenge (Collections=17 Total time spent=0s)
+Garbage collector: PS MarkSweep (Collections=2 Total time spent=0s)
+Classes: loaded=8963 total loaded=8963 unloaded 0
+INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8,282,558,464
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.apisupport.project.suite.SuiteProject$1.run(SuiteProject.java:301)
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
+WARNING [org.netbeans.modules.apisupport.project]: Project in /home/marcos/NetBeansProjects/YahooSearch is missing its platform 'null', switching to default platform
+INFO [glassfish]: Created GlassFish Server 3.1.2.2 instance with name GlassFish Server 3.1.2
+INFO [glassfish]: Created GlassFish Server 4 instance with name GlassFish Server 4
+WARNING [org.netbeans.modules.apisupport.project]: Warning - could not find dependent module br.search.yahoo for /home/marcos/NetBeansProjects/YahooSearch
+WARNING [org.netbeans.modules.apisupport.project]: Project in /home/marcos/NetBeansProjects/YahooSearch is missing its platform 'null', switching to default platform
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.apisupport.project.NbModuleProject$4.run(NbModuleProject.java:760)
+WARNING [org.netbeans.modules.apisupport.project]: Project in /home/marcos/NetBeansProjects/YahooSearchToolbar3 is missing its platform 'null', switching to default platform
+WARNING [org.netbeans.modules.apisupport.project]: Warning - could not find dependent module br.search.yahoo for /home/marcos/NetBeansProjects/YahooSearchToolbar3
+WARNING [org.netbeans.modules.apisupport.project]: Project in /home/marcos/NetBeansProjects/YahooSearchToolbar3 is missing its platform 'null', switching to default platform
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.nativeexecution.support.hostinfo.impl.HostInfoFactory.getNBKey(HostInfoFactory.java:411)
+Configuration updated:
+	0 deleted items
+	1 added items
+	0 changed items
+INFO [org.netbeans.modules.cnd.api.project.NativeProjectRegistry]: Open native project Arguments_1-project-example /home/marcos/NetBeansProjects/Arguments_1-project-example
+Configuration updated:
+	0 deleted items
+	1 added items
+	0 changed items
+INFO [org.netbeans.modules.cnd.api.project.NativeProjectRegistry]: Open native project InputOutput-project-example /home/marcos/NetBeansProjects/InputOutput-project-example
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.j2ee.earproject.EarProject$ProjectOpenedHookImpl.updateProject(EarProject.java:567)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 92 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 185 binary roots took: 566 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/feedreader-suite/jdom/src took: 128 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 3 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/feedreader-suite/rome/src took: 27 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/feedreader-suite/rome-fetcher/src took: 23 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/feedreader-suite/FeedReader/src took: 35 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 2 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/SampleCRUDApp/CustomerDBAccessLibrary/build/classes-generated took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/KnockoutJSGameList/test took: 45 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/SampleCRUDApp/CustomerEditor/build/classes-generated took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/feedreader-suite/rome/build/classes-generated took: 1 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /usr/share/php/PHPUnit took: 95 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 17 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /usr/local/netbeans-8.0rc1/php/phpstubs/phpruntime took: 44 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 2 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: nbfs://nbhost/SystemFileSystem/PHP/RuntimeLibraries/ took: 14 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/marcosptf took: 224 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearchToolbar3/build/classes-generated took: 1 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/SampleCRUDApp/CustomerViewer/build/classes-generated took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearchToolbar2/build/classes-generated took: 20 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearch/src took: 17 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/asteroids-master/src took: 21 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearchToolbar3/src took: 21 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 2 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/gameTitans/test took: 26 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/projetosGIT/TFFinancas/src/java took: 38 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/projetosGIT/TFFinancas/test took: 21 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/asteroids-v3/test took: 1 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/AngularJSPhoneCat/app took: 654 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 5 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearchToolbar5/src took: 42 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/JavaApplication1/test took: 1 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/BackboneWineCellar/test took: 30 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/projetosGIT/TFFinancas/web took: 55 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/GUIFormExamples/src took: 23 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/javagamesdev/public_html took: 27 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/Calculator/CalculatorClientApp/web took: 45 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/HelloWorld/test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YUI-3.10.1/public_html took: 628 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/googleToolbar/build/classes-generated took: 26 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/projetosGIT/DoomRpg/src/java took: 30 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/projetosGIT/ecommerceJSF/web took: 49 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/projetosGIT/cassino/src/java took: 27 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/projetosGIT/cassino/test took: 22 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/SampleCRUDApp/CustomerDBAccess/src took: 34 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/thewalkingdeadgame-prod-min/public_html took: 45 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/BackboneWineCellar/bootstrap took: 93 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/Calculator/CalculatorApp/test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/Calculator/CalculatorApp/src/java took: 63 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/SampleCRUDApp/derbyclient-library/src took: 24 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/JavaApplication1/src took: 14 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/BackboneHelloWorld/test took: 20 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/SampleCRUDApp/CustomerDBAccessLibrary/src took: 23 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/SampleCRUDApp/CustomerViewer/src took: 29 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/SampleCRUDApp/CustomerEditor/src took: 37 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 2 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/KnockoutJSGameList1/test took: 29 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearchToolbar4/build/classes-generated took: 22 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/gameTitans/public_html took: 25 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearchToolbar5/build/classes-generated took: 16 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/mysqlDeveloper took: 156 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/Calculator/CalculatorClientApp/test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/feedreader-suite/jdom/build/classes-generated took: 1 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/BackboneJQueryMobile/public_html took: 33 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/BackboneHelloWorld/public_html took: 25 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/googleToolbar/src took: 16 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/ClientEditor/src took: 16 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/ClientEditor/test took: 16 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/Arguments_1-project-example took: 25 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 2 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/GUIFormExamples/test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/feedreader-suite/rome-fetcher/build/classes-generated took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/AnagramGame/src took: 15 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/AnagramGame/test took: 13 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/AngularJSPhoneCat/test took: 25 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 2 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/RentAFlat-Zend took: 140 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/RESTDemo/rest-sample-module/src took: 43 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 2 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearchToolbar4/src took: 16 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/jsNinja took: 310 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/Calculator/CalculatorApp/web took: 36 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/javagamesdev/test took: 21 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/jpa-orm/src took: 22 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/jpa-orm/test took: 20 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/HelloWorld/src/java took: 32 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/projetosGIT/DoomRpg/test took: 16 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/KnockoutJSGameList/src took: 30 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YUI-3.10.1/test took: 23 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/Calculador took: 136 ms (New or modified files: 1, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearchToolbar/build/classes-generated took: 1 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/Calculator/CalculatorClientApp/src/java took: 58 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 29 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearchToolbar5.1/src took: 17 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/JUnitTests/src took: 16 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/JUnitTests/test took: 12 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearchToolbar5.1/build/classes-generated took: 14 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/ResponsiveRabbits/test took: 21 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/ResponsiveRabbits/public_html took: 22 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/SampleCRUDApp/derbyclient-library/build/classes-generated took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/feedreader-suite/FeedReader/build/classes-generated took: 1 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/InputOutput-project-example took: 24 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 2 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/KnockoutJSGameList1/src took: 25 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/SampleCRUDApp/CustomerDBAccess/test took: 1 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/Calculator/CalculatorClientApp/build/generated-sources/jax-ws took: 28 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 2 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/asteroids-v3/src took: 18 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearch/build/classes-generated took: 15 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/projetosGIT/cassino/web took: 32 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/Calculador/tests took: 21 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/projetosGIT/ecommerceJSF/src/java took: 35 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/projetosGIT/ecommerceJSF/test took: 16 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearchToolbar2/src took: 16 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/BackboneJQueryMobile/test took: 17 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/EmberJSTrek/public_html took: 26 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/YahooSearchToolbar/src took: 21 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/RESTDemo/rest-sample-module/build/classes-generated took: 33 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/EmberJSTrek/test took: 45 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 1 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/NetBeansProjects/HelloWorld/web took: 40 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/deployer/asteroids-master/test took: 1 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: /home/marcos/projetosGIT/DoomRpg/web took: 31 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 108 source roots took: 4,728 ms (New or modified files: 5, Deleted files: 0) [Adding listeners took: 107 ms]
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Found non-xml file in config/Modules, ignoring: /home/marcos/.netbeans/7.4/config/Modules/.nbattrs
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-options-java.jar doesn't exists. Skip checking org.netbeans.modules.options.java
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-kit.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-kit.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-debugger-jpda-ui.jar doesn't exists. Skip checking org.netbeans.modules.debugger.jpda.ui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-paintapp.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.paintapp
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-ant-debugger.jar doesn't exists. Skip checking org.netbeans.modules.ant.debugger
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-zvents.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.zvents
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-el.jar doesn't exists. Skip checking org.netbeans.modules.web.el
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-refactoring.jar doesn't exists. Skip checking org.netbeans.modules.web.refactoring
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-debugger-jpda-kit.jar doesn't exists. Skip checking org.netbeans.modules.debugger.jpda.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-editor-lib.jar doesn't exists. Skip checking org.netbeans.modules.java.editor.lib
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-monitor.jar doesn't exists. Skip checking org.netbeans.modules.web.monitor
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-flickr.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.flickr
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-form-kit.jar doesn't exists. Skip checking org.netbeans.modules.form.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/com-atlassian-connector-eclipse-jira-core.jar doesn't exists. Skip checking com.atlassian.connector.eclipse.jira.core
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-sourceui.jar doesn't exists. Skip checking org.netbeans.modules.java.sourceui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-ant-browsetask.jar doesn't exists. Skip checking org.netbeans.modules.ant.browsetask
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cordova-platforms-android.jar doesn't exists. Skip checking org.netbeans.modules.cordova.platforms.android
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-metro-lib.jar doesn't exists. Skip checking org.netbeans.modules.websvc.metro.lib
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-design.jar doesn't exists. Skip checking org.netbeans.modules.websvc.design
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-callgraph.jar doesn't exists. Skip checking org.netbeans.modules.cnd.callgraph
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-inspect.jar doesn't exists. Skip checking org.netbeans.modules.web.inspect
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-coverage.jar doesn't exists. Skip checking org.netbeans.modules.maven.coverage
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-oql-language.jar doesn't exists. Skip checking org.netbeans.modules.profiler.oql.language
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-testrunner.jar doesn't exists. Skip checking org.netbeans.modules.java.testrunner
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-ui.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.ui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-core.jar doesn't exists. Skip checking org.netbeans.modules.websvc.core
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-persistence-kit.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.persistence.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-debug.jar doesn't exists. Skip checking org.netbeans.modules.java.debug
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-extbrowser-chrome.jar doesn't exists. Skip checking org.netbeans.modules.extbrowser.chrome
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-javascript-debugger.jar doesn't exists. Skip checking org.netbeans.modules.web.javascript.debugger
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-ejbjarproject.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.ejbjarproject
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-wizards.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.wizards
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-snaptracer.jar doesn't exists. Skip checking org.netbeans.modules.profiler.snaptracer
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-simpleunit.jar doesn't exists. Skip checking org.netbeans.modules.cnd.simpleunit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf-richfaces.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf.richfaces
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-kit.jar doesn't exists. Skip checking org.netbeans.modules.php.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven.jar doesn't exists. Skip checking org.netbeans.modules.maven
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-kit.jar doesn't exists. Skip checking org.netbeans.modules.web.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-freeform.jar doesn't exists. Skip checking org.netbeans.modules.java.freeform
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javaee-api.jar doesn't exists. Skip checking org.netbeans.modules.javaee.api
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-classview.jar doesn't exists. Skip checking org.netbeans.modules.cnd.classview
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-earproject.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.earproject
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-core-syntax.jar doesn't exists. Skip checking org.netbeans.modules.web.core.syntax
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cordova.jar doesn't exists. Skip checking org.netbeans.modules.cordova
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-refactoring-java.jar doesn't exists. Skip checking org.netbeans.modules.refactoring.java
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-debug.jar doesn't exists. Skip checking org.netbeans.modules.web.debug
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-codegen.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.codegen
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-glassfish-javaee.jar doesn't exists. Skip checking org.netbeans.modules.glassfish.javaee
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-projectimport-eclipse-core.jar doesn't exists. Skip checking org.netbeans.modules.projectimport.eclipse.core
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-symfony.jar doesn't exists. Skip checking org.netbeans.modules.php.symfony
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-ejbverification.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.ejbverification
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf12.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf12
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cloud-common.jar doesn't exists. Skip checking org.netbeans.modules.cloud.common
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-metro-samples.jar doesn't exists. Skip checking org.netbeans.modules.websvc.metro.samples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-delicious.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.delicious
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-dwarfdiscovery.jar doesn't exists. Skip checking org.netbeans.modules.cnd.dwarfdiscovery
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-debugger-jpda-visual.jar doesn't exists. Skip checking org.netbeans.modules.debugger.jpda.visual
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-libs-jstl.jar doesn't exists. Skip checking org.netbeans.libs.jstl
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-indexing.jar doesn't exists. Skip checking org.netbeans.modules.cnd.indexing
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-modeldiscovery.jar doesn't exists. Skip checking org.netbeans.modules.cnd.modeldiscovery
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-project.jar doesn't exists. Skip checking org.netbeans.modules.web.project
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-source.jar doesn't exists. Skip checking org.netbeans.modules.cnd.source
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-osgidemo.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.osgidemo
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-strikeiron.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.strikeiron
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-checkstyle.jar doesn't exists. Skip checking org.netbeans.modules.maven.checkstyle
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-metadata-model-support.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.metadata.model.support
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-websvcapi.jar doesn't exists. Skip checking org.netbeans.modules.websvc.websvcapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-source-ant.jar doesn't exists. Skip checking org.netbeans.modules.java.source.ant
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-kit.jar doesn't exists. Skip checking org.netbeans.modules.java.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-clientapi.jar doesn't exists. Skip checking org.netbeans.modules.websvc.clientapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-samples.jar doesn't exists. Skip checking org.netbeans.modules.php.samples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-editor-hints.jar doesn't exists. Skip checking org.netbeans.modules.websvc.editor.hints
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-hints.jar doesn't exists. Skip checking org.netbeans.modules.java.hints
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-beans.jar doesn't exists. Skip checking org.netbeans.modules.beans
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-graph.jar doesn't exists. Skip checking org.netbeans.modules.maven.graph
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-findbugs-installer.jar doesn't exists. Skip checking org.netbeans.modules.findbugs.installer
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javaee7-api.jar doesn't exists. Skip checking org.netbeans.modules.javaee7.api
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-feedreader.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.feedreader
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/com-sun-mail-javax-mail.jar doesn't exists. Skip checking com.sun.mail.javax.mail
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/com-atlassian-connector-eclipse-commons-core.jar doesn't exists. Skip checking com.atlassian.connector.eclipse.commons.core
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-jpa-refactoring.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.jpa.refactoring
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf20.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf20
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/javax-xml-soap.jar doesn't exists. Skip checking javax.xml.soap
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-editor.jar doesn't exists. Skip checking org.netbeans.modules.java.editor
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-jpa-verification.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.jpa.verification
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-dwarfdump.jar doesn't exists. Skip checking org.netbeans.modules.cnd.dwarfdump
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-zend.jar doesn't exists. Skip checking org.netbeans.modules.php.zend
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-hibernate.jar doesn't exists. Skip checking org.netbeans.modules.hibernate
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-navigation.jar doesn't exists. Skip checking org.netbeans.modules.cnd.navigation
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-sun-ddui.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.sun.ddui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-phpdoc-documentation.jar doesn't exists. Skip checking org.netbeans.modules.php.phpdoc.documentation
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-latte.jar doesn't exists. Skip checking org.netbeans.modules.php.latte
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-kit.jar doesn't exists. Skip checking org.netbeans.modules.websvc.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-modelui.jar doesn't exists. Skip checking org.netbeans.modules.cnd.modelui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-apt.jar doesn't exists. Skip checking org.netbeans.modules.cnd.apt
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-genericserver.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.genericserver
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-repository.jar doesn't exists. Skip checking org.netbeans.modules.maven.repository
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-kit.jar doesn't exists. Skip checking org.netbeans.modules.cnd.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-clientproject.jar doesn't exists. Skip checking org.netbeans.modules.web.clientproject
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cloud-amazon.jar doesn't exists. Skip checking org.netbeans.modules.cloud.amazon
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-symfony2.jar doesn't exists. Skip checking org.netbeans.modules.php.symfony2
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-osgi.jar doesn't exists. Skip checking org.netbeans.modules.maven.osgi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-xml-tools-java.jar doesn't exists. Skip checking org.netbeans.modules.xml.tools.java
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-kit.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javaee-injection.jar doesn't exists. Skip checking org.netbeans.modules.javaee.injection
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-dlight-kit.jar doesn't exists. Skip checking org.netbeans.modules.dlight.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-amazon.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.amazon
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-refactoring.jar doesn't exists. Skip checking org.netbeans.modules.php.refactoring
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-eclipselinkmodelgen.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.eclipselinkmodelgen
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-beans.jar doesn't exists. Skip checking org.netbeans.modules.web.beans
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-doctrine2.jar doesn't exists. Skip checking org.netbeans.modules.php.doctrine2
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-options.jar doesn't exists. Skip checking org.netbeans.modules.profiler.options
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-core.jar doesn't exists. Skip checking org.netbeans.modules.web.core
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javawebstart.jar doesn't exists. Skip checking org.netbeans.modules.javawebstart
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-ejbcore.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.ejbcore
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-sun-appsrv.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.sun.appsrv
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-api.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.api
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-project.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.project
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-jaxwsmodel.jar doesn't exists. Skip checking org.netbeans.modules.websvc.jaxwsmodel
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-highlight.jar doesn't exists. Skip checking org.netbeans.modules.cnd.highlight
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-ant.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.ant
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-dbschema.jar doesn't exists. Skip checking org.netbeans.modules.dbschema
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-persistence.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.persistence
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/javax-xml-rpc.jar doesn't exists. Skip checking javax.xml.rpc
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-zend2.jar doesn't exists. Skip checking org.netbeans.modules.php.zend2
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd.jar doesn't exists. Skip checking org.netbeans.modules.cnd
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-eclipse-mylyn-monitor-ui-dummy.jar doesn't exists. Skip checking org.eclipse.mylyn.monitor.ui.dummy
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-hints-declarative.jar doesn't exists. Skip checking org.netbeans.modules.java.hints.declarative
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf-icefaces.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf.icefaces
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-platform.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.platform
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-projectapi.jar doesn't exists. Skip checking org.netbeans.modules.websvc.projectapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-struts.jar doesn't exists. Skip checking org.netbeans.modules.web.struts
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-refactoring.jar doesn't exists. Skip checking org.netbeans.modules.maven.refactoring
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-crudsample.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.crudsample
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-composer.jar doesn't exists. Skip checking org.netbeans.modules.php.composer
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-twig.jar doesn't exists. Skip checking org.netbeans.modules.php.twig
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-script.jar doesn't exists. Skip checking org.netbeans.modules.cnd.script
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-discovery.jar doesn't exists. Skip checking org.netbeans.modules.cnd.discovery
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-wsitconf.jar doesn't exists. Skip checking org.netbeans.modules.websvc.wsitconf
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-refactoring.jar doesn't exists. Skip checking org.netbeans.modules.cnd.refactoring
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-installer.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.installer
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-jboss4.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.jboss4
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-client-kit.jar doesn't exists. Skip checking org.netbeans.modules.web.client.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-languages-apacheconf.jar doesn't exists. Skip checking org.netbeans.modules.languages.apacheconf
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-search.jar doesn't exists. Skip checking org.netbeans.modules.cnd.search
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-repository-api.jar doesn't exists. Skip checking org.netbeans.modules.cnd.repository.api
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-makeproject.jar doesn't exists. Skip checking org.netbeans.modules.cnd.makeproject
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-metadata.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.metadata
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-examples.jar doesn't exists. Skip checking org.netbeans.modules.web.examples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-editor.jar doesn't exists. Skip checking org.netbeans.modules.php.editor
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javaee-beanvalidation.jar doesn't exists. Skip checking org.netbeans.modules.javaee.beanvalidation
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-samples.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.samples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-hints-ui.jar doesn't exists. Skip checking org.netbeans.modules.java.hints.ui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-google.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.google
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-dbgp.jar doesn't exists. Skip checking org.netbeans.modules.php.dbgp
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-drilldown.jar doesn't exists. Skip checking org.netbeans.modules.profiler.drilldown
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-ant-kit.jar doesn't exists. Skip checking org.netbeans.modules.ant.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-form.jar doesn't exists. Skip checking org.netbeans.modules.form
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-restsample.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.restsample
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-ant.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.ant
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-i18n.jar doesn't exists. Skip checking org.netbeans.modules.i18n
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-debugger-gdb2.jar doesn't exists. Skip checking org.netbeans.modules.cnd.debugger.gdb2
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-ddloaders.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.ddloaders
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-client-rest.jar doesn't exists. Skip checking org.netbeans.modules.web.client.rest
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-editor.jar doesn't exists. Skip checking org.netbeans.modules.cnd.editor
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-weatherbug.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.weatherbug
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-tomcat5.jar doesn't exists. Skip checking org.netbeans.modules.tomcat5
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-xml-jaxb.jar doesn't exists. Skip checking org.netbeans.modules.xml.jaxb
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-weblogic9.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.weblogic9
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-testrunner.jar doesn't exists. Skip checking org.netbeans.modules.cnd.testrunner
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-kit.jar doesn't exists. Skip checking org.netbeans.modules.maven.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-project.jar doesn't exists. Skip checking org.netbeans.modules.php.project
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-asm.jar doesn't exists. Skip checking org.netbeans.modules.cnd.asm
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-source.jar doesn't exists. Skip checking org.netbeans.modules.java.source
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-heapwalker.jar doesn't exists. Skip checking org.netbeans.modules.profiler.heapwalker
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-ant-freeform.jar doesn't exists. Skip checking org.netbeans.modules.ant.freeform
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-utils.jar doesn't exists. Skip checking org.netbeans.modules.cnd.utils
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf12ri.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf12ri
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-examples.jar doesn't exists. Skip checking org.netbeans.modules.java.examples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-jaxwsmodelapi.jar doesn't exists. Skip checking org.netbeans.modules.websvc.jaxwsmodelapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-eclipse-mylyn-commons-soap.jar doesn't exists. Skip checking org.eclipse.mylyn.commons.soap
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/javax-servlet.jar doesn't exists. Skip checking javax.servlet
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-jaxwsapi.jar doesn't exists. Skip checking org.netbeans.modules.websvc.jaxwsapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-glassfish-common.jar doesn't exists. Skip checking org.netbeans.modules.glassfish.common
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-zillow.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.zillow
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-restkit.jar doesn't exists. Skip checking org.netbeans.modules.websvc.restkit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-ejbrefactoring.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.ejbrefactoring
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javascript-jstestdriver.jar doesn't exists. Skip checking org.netbeans.modules.javascript.jstestdriver
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-modelutil.jar doesn't exists. Skip checking org.netbeans.modules.cnd.modelutil
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-debugger-common2.jar doesn't exists. Skip checking org.netbeans.modules.cnd.debugger.common2
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-webkit-tooling.jar doesn't exists. Skip checking org.netbeans.modules.web.webkit.tooling
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-folding.jar doesn't exists. Skip checking org.netbeans.modules.cnd.folding
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf-navigation.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf.navigation
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-manager.jar doesn't exists. Skip checking org.netbeans.modules.websvc.manager
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-stp.jar doesn't exists. Skip checking org.netbeans.modules.profiler.stp
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-apache-commons-discovery.jar doesn't exists. Skip checking org.apache.commons.discovery
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-j2seproject.jar doesn't exists. Skip checking org.netbeans.modules.java.j2seproject
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-freeform.jar doesn't exists. Skip checking org.netbeans.modules.web.freeform
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-grammar.jar doesn't exists. Skip checking org.netbeans.modules.maven.grammar
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-wsstackapi.jar doesn't exists. Skip checking org.netbeans.modules.websvc.wsstackapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-kit.jar doesn't exists. Skip checking org.netbeans.modules.profiler.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-cncppunit.jar doesn't exists. Skip checking org.netbeans.modules.cnd.cncppunit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-j2seprofiles.jar doesn't exists. Skip checking org.netbeans.modules.java.j2seprofiles
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-atoum.jar doesn't exists. Skip checking org.netbeans.modules.php.atoum
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-primefaces.jar doesn't exists. Skip checking org.netbeans.modules.web.primefaces
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-nette2.jar doesn't exists. Skip checking org.netbeans.modules.php.nette2
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-spring-beans.jar doesn't exists. Skip checking org.netbeans.modules.spring.beans
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-nbimpl.jar doesn't exists. Skip checking org.netbeans.modules.profiler.nbimpl
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-owsm.jar doesn't exists. Skip checking org.netbeans.modules.websvc.owsm
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-persistenceapi.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.persistenceapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-smarty.jar doesn't exists. Skip checking org.netbeans.modules.php.smarty
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-qnavigator.jar doesn't exists. Skip checking org.netbeans.modules.cnd.qnavigator
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-j2seplatform.jar doesn't exists. Skip checking org.netbeans.modules.java.j2seplatform
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-junit.jar doesn't exists. Skip checking org.netbeans.modules.junit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-j2sedeploy.jar doesn't exists. Skip checking org.netbeans.modules.java.j2sedeploy
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-codegen-j2ee.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.codegen.j2ee
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf-editor.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf.editor
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-clientproject.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.clientproject
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-antlr.jar doesn't exists. Skip checking org.netbeans.modules.cnd.antlr
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-completion.jar doesn't exists. Skip checking org.netbeans.modules.cnd.completion
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-gotodeclaration.jar doesn't exists. Skip checking org.netbeans.modules.cnd.gotodeclaration
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-apache-axis.jar doesn't exists. Skip checking org.apache.axis
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-api-model.jar doesn't exists. Skip checking org.netbeans.modules.cnd.api.model
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-client-samples.jar doesn't exists. Skip checking org.netbeans.modules.web.client.samples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javadoc.jar doesn't exists. Skip checking org.netbeans.modules.javadoc
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-phpunit.jar doesn't exists. Skip checking org.netbeans.modules.php.phpunit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-apache-tools-ant-module.jar doesn't exists. Skip checking org.apache.tools.ant.module
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-common.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.common
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsfapi.jar doesn't exists. Skip checking org.netbeans.modules.web.jsfapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-customization.jar doesn't exists. Skip checking org.netbeans.modules.websvc.customization
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-navigation.jar doesn't exists. Skip checking org.netbeans.modules.java.navigation
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf-kit.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-spring-webmvc.jar doesn't exists. Skip checking org.netbeans.modules.spring.webmvc
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-code-analysis.jar doesn't exists. Skip checking org.netbeans.modules.php.code.analysis
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websocket.jar doesn't exists. Skip checking org.netbeans.modules.websocket
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-remote-projectui.jar doesn't exists. Skip checking org.netbeans.modules.cnd.remote.projectui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cordova-platforms-ios.jar doesn't exists. Skip checking org.netbeans.modules.cordova.platforms.ios
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javaee-project.jar doesn't exists. Skip checking org.netbeans.modules.javaee.project
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-rest-samples.jar doesn't exists. Skip checking org.netbeans.modules.websvc.rest.samples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-apigen.jar doesn't exists. Skip checking org.netbeans.modules.php.apigen
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Found non-xml file in config/Modules, ignoring: /home/marcos/.netbeans/7.4/config/Modules/.nbattrs
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-options-java.jar doesn't exists. Skip checking org.netbeans.modules.options.java
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-kit.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-kit.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-debugger-jpda-ui.jar doesn't exists. Skip checking org.netbeans.modules.debugger.jpda.ui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-paintapp.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.paintapp
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-ant-debugger.jar doesn't exists. Skip checking org.netbeans.modules.ant.debugger
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-zvents.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.zvents
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-el.jar doesn't exists. Skip checking org.netbeans.modules.web.el
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-refactoring.jar doesn't exists. Skip checking org.netbeans.modules.web.refactoring
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-debugger-jpda-kit.jar doesn't exists. Skip checking org.netbeans.modules.debugger.jpda.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-editor-lib.jar doesn't exists. Skip checking org.netbeans.modules.java.editor.lib
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-monitor.jar doesn't exists. Skip checking org.netbeans.modules.web.monitor
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-flickr.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.flickr
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-form-kit.jar doesn't exists. Skip checking org.netbeans.modules.form.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/com-atlassian-connector-eclipse-jira-core.jar doesn't exists. Skip checking com.atlassian.connector.eclipse.jira.core
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-sourceui.jar doesn't exists. Skip checking org.netbeans.modules.java.sourceui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-ant-browsetask.jar doesn't exists. Skip checking org.netbeans.modules.ant.browsetask
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cordova-platforms-android.jar doesn't exists. Skip checking org.netbeans.modules.cordova.platforms.android
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-metro-lib.jar doesn't exists. Skip checking org.netbeans.modules.websvc.metro.lib
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-design.jar doesn't exists. Skip checking org.netbeans.modules.websvc.design
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-callgraph.jar doesn't exists. Skip checking org.netbeans.modules.cnd.callgraph
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-inspect.jar doesn't exists. Skip checking org.netbeans.modules.web.inspect
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-coverage.jar doesn't exists. Skip checking org.netbeans.modules.maven.coverage
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-oql-language.jar doesn't exists. Skip checking org.netbeans.modules.profiler.oql.language
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-testrunner.jar doesn't exists. Skip checking org.netbeans.modules.java.testrunner
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-ui.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.ui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-core.jar doesn't exists. Skip checking org.netbeans.modules.websvc.core
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-persistence-kit.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.persistence.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-debug.jar doesn't exists. Skip checking org.netbeans.modules.java.debug
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-extbrowser-chrome.jar doesn't exists. Skip checking org.netbeans.modules.extbrowser.chrome
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-javascript-debugger.jar doesn't exists. Skip checking org.netbeans.modules.web.javascript.debugger
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-ejbjarproject.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.ejbjarproject
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-wizards.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.wizards
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-snaptracer.jar doesn't exists. Skip checking org.netbeans.modules.profiler.snaptracer
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-simpleunit.jar doesn't exists. Skip checking org.netbeans.modules.cnd.simpleunit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf-richfaces.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf.richfaces
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-kit.jar doesn't exists. Skip checking org.netbeans.modules.php.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven.jar doesn't exists. Skip checking org.netbeans.modules.maven
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-kit.jar doesn't exists. Skip checking org.netbeans.modules.web.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-freeform.jar doesn't exists. Skip checking org.netbeans.modules.java.freeform
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javaee-api.jar doesn't exists. Skip checking org.netbeans.modules.javaee.api
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-classview.jar doesn't exists. Skip checking org.netbeans.modules.cnd.classview
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-earproject.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.earproject
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-core-syntax.jar doesn't exists. Skip checking org.netbeans.modules.web.core.syntax
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cordova.jar doesn't exists. Skip checking org.netbeans.modules.cordova
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-refactoring-java.jar doesn't exists. Skip checking org.netbeans.modules.refactoring.java
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-debug.jar doesn't exists. Skip checking org.netbeans.modules.web.debug
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-codegen.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.codegen
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-glassfish-javaee.jar doesn't exists. Skip checking org.netbeans.modules.glassfish.javaee
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-projectimport-eclipse-core.jar doesn't exists. Skip checking org.netbeans.modules.projectimport.eclipse.core
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-symfony.jar doesn't exists. Skip checking org.netbeans.modules.php.symfony
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-ejbverification.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.ejbverification
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf12.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf12
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cloud-common.jar doesn't exists. Skip checking org.netbeans.modules.cloud.common
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-metro-samples.jar doesn't exists. Skip checking org.netbeans.modules.websvc.metro.samples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-delicious.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.delicious
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-dwarfdiscovery.jar doesn't exists. Skip checking org.netbeans.modules.cnd.dwarfdiscovery
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-debugger-jpda-visual.jar doesn't exists. Skip checking org.netbeans.modules.debugger.jpda.visual
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-libs-jstl.jar doesn't exists. Skip checking org.netbeans.libs.jstl
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-indexing.jar doesn't exists. Skip checking org.netbeans.modules.cnd.indexing
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-modeldiscovery.jar doesn't exists. Skip checking org.netbeans.modules.cnd.modeldiscovery
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-project.jar doesn't exists. Skip checking org.netbeans.modules.web.project
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-source.jar doesn't exists. Skip checking org.netbeans.modules.cnd.source
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-osgidemo.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.osgidemo
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-strikeiron.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.strikeiron
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-checkstyle.jar doesn't exists. Skip checking org.netbeans.modules.maven.checkstyle
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-metadata-model-support.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.metadata.model.support
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-websvcapi.jar doesn't exists. Skip checking org.netbeans.modules.websvc.websvcapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-source-ant.jar doesn't exists. Skip checking org.netbeans.modules.java.source.ant
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-kit.jar doesn't exists. Skip checking org.netbeans.modules.java.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-clientapi.jar doesn't exists. Skip checking org.netbeans.modules.websvc.clientapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-samples.jar doesn't exists. Skip checking org.netbeans.modules.php.samples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-editor-hints.jar doesn't exists. Skip checking org.netbeans.modules.websvc.editor.hints
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-hints.jar doesn't exists. Skip checking org.netbeans.modules.java.hints
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-beans.jar doesn't exists. Skip checking org.netbeans.modules.beans
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-graph.jar doesn't exists. Skip checking org.netbeans.modules.maven.graph
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-findbugs-installer.jar doesn't exists. Skip checking org.netbeans.modules.findbugs.installer
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javaee7-api.jar doesn't exists. Skip checking org.netbeans.modules.javaee7.api
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-feedreader.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.feedreader
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/com-sun-mail-javax-mail.jar doesn't exists. Skip checking com.sun.mail.javax.mail
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/com-atlassian-connector-eclipse-commons-core.jar doesn't exists. Skip checking com.atlassian.connector.eclipse.commons.core
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-jpa-refactoring.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.jpa.refactoring
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf20.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf20
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/javax-xml-soap.jar doesn't exists. Skip checking javax.xml.soap
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-editor.jar doesn't exists. Skip checking org.netbeans.modules.java.editor
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-jpa-verification.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.jpa.verification
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-dwarfdump.jar doesn't exists. Skip checking org.netbeans.modules.cnd.dwarfdump
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-zend.jar doesn't exists. Skip checking org.netbeans.modules.php.zend
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-hibernate.jar doesn't exists. Skip checking org.netbeans.modules.hibernate
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-navigation.jar doesn't exists. Skip checking org.netbeans.modules.cnd.navigation
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-sun-ddui.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.sun.ddui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-phpdoc-documentation.jar doesn't exists. Skip checking org.netbeans.modules.php.phpdoc.documentation
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-latte.jar doesn't exists. Skip checking org.netbeans.modules.php.latte
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-kit.jar doesn't exists. Skip checking org.netbeans.modules.websvc.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-modelui.jar doesn't exists. Skip checking org.netbeans.modules.cnd.modelui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-apt.jar doesn't exists. Skip checking org.netbeans.modules.cnd.apt
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-genericserver.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.genericserver
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-repository.jar doesn't exists. Skip checking org.netbeans.modules.maven.repository
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-kit.jar doesn't exists. Skip checking org.netbeans.modules.cnd.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-clientproject.jar doesn't exists. Skip checking org.netbeans.modules.web.clientproject
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cloud-amazon.jar doesn't exists. Skip checking org.netbeans.modules.cloud.amazon
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-symfony2.jar doesn't exists. Skip checking org.netbeans.modules.php.symfony2
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-osgi.jar doesn't exists. Skip checking org.netbeans.modules.maven.osgi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-xml-tools-java.jar doesn't exists. Skip checking org.netbeans.modules.xml.tools.java
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-kit.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javaee-injection.jar doesn't exists. Skip checking org.netbeans.modules.javaee.injection
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-dlight-kit.jar doesn't exists. Skip checking org.netbeans.modules.dlight.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-amazon.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.amazon
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-refactoring.jar doesn't exists. Skip checking org.netbeans.modules.php.refactoring
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-eclipselinkmodelgen.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.eclipselinkmodelgen
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-beans.jar doesn't exists. Skip checking org.netbeans.modules.web.beans
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-doctrine2.jar doesn't exists. Skip checking org.netbeans.modules.php.doctrine2
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-options.jar doesn't exists. Skip checking org.netbeans.modules.profiler.options
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-core.jar doesn't exists. Skip checking org.netbeans.modules.web.core
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javawebstart.jar doesn't exists. Skip checking org.netbeans.modules.javawebstart
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-ejbcore.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.ejbcore
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-sun-appsrv.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.sun.appsrv
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-api.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.api
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-project.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.project
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-jaxwsmodel.jar doesn't exists. Skip checking org.netbeans.modules.websvc.jaxwsmodel
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-highlight.jar doesn't exists. Skip checking org.netbeans.modules.cnd.highlight
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-ant.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.ant
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-dbschema.jar doesn't exists. Skip checking org.netbeans.modules.dbschema
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-persistence.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.persistence
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/javax-xml-rpc.jar doesn't exists. Skip checking javax.xml.rpc
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-zend2.jar doesn't exists. Skip checking org.netbeans.modules.php.zend2
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd.jar doesn't exists. Skip checking org.netbeans.modules.cnd
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-eclipse-mylyn-monitor-ui-dummy.jar doesn't exists. Skip checking org.eclipse.mylyn.monitor.ui.dummy
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-hints-declarative.jar doesn't exists. Skip checking org.netbeans.modules.java.hints.declarative
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf-icefaces.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf.icefaces
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-platform.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.platform
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-projectapi.jar doesn't exists. Skip checking org.netbeans.modules.websvc.projectapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-struts.jar doesn't exists. Skip checking org.netbeans.modules.web.struts
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-refactoring.jar doesn't exists. Skip checking org.netbeans.modules.maven.refactoring
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-crudsample.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.crudsample
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-composer.jar doesn't exists. Skip checking org.netbeans.modules.php.composer
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-twig.jar doesn't exists. Skip checking org.netbeans.modules.php.twig
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-script.jar doesn't exists. Skip checking org.netbeans.modules.cnd.script
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-discovery.jar doesn't exists. Skip checking org.netbeans.modules.cnd.discovery
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-wsitconf.jar doesn't exists. Skip checking org.netbeans.modules.websvc.wsitconf
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-refactoring.jar doesn't exists. Skip checking org.netbeans.modules.cnd.refactoring
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-installer.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.installer
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-jboss4.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.jboss4
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-client-kit.jar doesn't exists. Skip checking org.netbeans.modules.web.client.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-languages-apacheconf.jar doesn't exists. Skip checking org.netbeans.modules.languages.apacheconf
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-search.jar doesn't exists. Skip checking org.netbeans.modules.cnd.search
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-repository-api.jar doesn't exists. Skip checking org.netbeans.modules.cnd.repository.api
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-makeproject.jar doesn't exists. Skip checking org.netbeans.modules.cnd.makeproject
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-metadata.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.metadata
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-examples.jar doesn't exists. Skip checking org.netbeans.modules.web.examples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-editor.jar doesn't exists. Skip checking org.netbeans.modules.php.editor
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javaee-beanvalidation.jar doesn't exists. Skip checking org.netbeans.modules.javaee.beanvalidation
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-samples.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.samples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-hints-ui.jar doesn't exists. Skip checking org.netbeans.modules.java.hints.ui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-google.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.google
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-dbgp.jar doesn't exists. Skip checking org.netbeans.modules.php.dbgp
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-drilldown.jar doesn't exists. Skip checking org.netbeans.modules.profiler.drilldown
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-ant-kit.jar doesn't exists. Skip checking org.netbeans.modules.ant.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-form.jar doesn't exists. Skip checking org.netbeans.modules.form
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-restsample.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.restsample
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-apisupport-ant.jar doesn't exists. Skip checking org.netbeans.modules.apisupport.ant
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-i18n.jar doesn't exists. Skip checking org.netbeans.modules.i18n
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-debugger-gdb2.jar doesn't exists. Skip checking org.netbeans.modules.cnd.debugger.gdb2
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-ddloaders.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.ddloaders
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-client-rest.jar doesn't exists. Skip checking org.netbeans.modules.web.client.rest
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-editor.jar doesn't exists. Skip checking org.netbeans.modules.cnd.editor
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-weatherbug.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.weatherbug
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-tomcat5.jar doesn't exists. Skip checking org.netbeans.modules.tomcat5
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-xml-jaxb.jar doesn't exists. Skip checking org.netbeans.modules.xml.jaxb
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-weblogic9.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.weblogic9
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-testrunner.jar doesn't exists. Skip checking org.netbeans.modules.cnd.testrunner
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-kit.jar doesn't exists. Skip checking org.netbeans.modules.maven.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-project.jar doesn't exists. Skip checking org.netbeans.modules.php.project
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-asm.jar doesn't exists. Skip checking org.netbeans.modules.cnd.asm
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-source.jar doesn't exists. Skip checking org.netbeans.modules.java.source
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-heapwalker.jar doesn't exists. Skip checking org.netbeans.modules.profiler.heapwalker
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-ant-freeform.jar doesn't exists. Skip checking org.netbeans.modules.ant.freeform
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-utils.jar doesn't exists. Skip checking org.netbeans.modules.cnd.utils
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf12ri.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf12ri
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-examples.jar doesn't exists. Skip checking org.netbeans.modules.java.examples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-jaxwsmodelapi.jar doesn't exists. Skip checking org.netbeans.modules.websvc.jaxwsmodelapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-eclipse-mylyn-commons-soap.jar doesn't exists. Skip checking org.eclipse.mylyn.commons.soap
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/javax-servlet.jar doesn't exists. Skip checking javax.servlet
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-jaxwsapi.jar doesn't exists. Skip checking org.netbeans.modules.websvc.jaxwsapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-glassfish-common.jar doesn't exists. Skip checking org.netbeans.modules.glassfish.common
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-services-zillow.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.services.zillow
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-restkit.jar doesn't exists. Skip checking org.netbeans.modules.websvc.restkit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-ejbrefactoring.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.ejbrefactoring
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javascript-jstestdriver.jar doesn't exists. Skip checking org.netbeans.modules.javascript.jstestdriver
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-modelutil.jar doesn't exists. Skip checking org.netbeans.modules.cnd.modelutil
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-debugger-common2.jar doesn't exists. Skip checking org.netbeans.modules.cnd.debugger.common2
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-webkit-tooling.jar doesn't exists. Skip checking org.netbeans.modules.web.webkit.tooling
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-folding.jar doesn't exists. Skip checking org.netbeans.modules.cnd.folding
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf-navigation.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf.navigation
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-manager.jar doesn't exists. Skip checking org.netbeans.modules.websvc.manager
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-stp.jar doesn't exists. Skip checking org.netbeans.modules.profiler.stp
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-apache-commons-discovery.jar doesn't exists. Skip checking org.apache.commons.discovery
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-j2seproject.jar doesn't exists. Skip checking org.netbeans.modules.java.j2seproject
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-freeform.jar doesn't exists. Skip checking org.netbeans.modules.web.freeform
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-maven-grammar.jar doesn't exists. Skip checking org.netbeans.modules.maven.grammar
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-wsstackapi.jar doesn't exists. Skip checking org.netbeans.modules.websvc.wsstackapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-kit.jar doesn't exists. Skip checking org.netbeans.modules.profiler.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-cncppunit.jar doesn't exists. Skip checking org.netbeans.modules.cnd.cncppunit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-j2seprofiles.jar doesn't exists. Skip checking org.netbeans.modules.java.j2seprofiles
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-atoum.jar doesn't exists. Skip checking org.netbeans.modules.php.atoum
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-primefaces.jar doesn't exists. Skip checking org.netbeans.modules.web.primefaces
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-nette2.jar doesn't exists. Skip checking org.netbeans.modules.php.nette2
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-spring-beans.jar doesn't exists. Skip checking org.netbeans.modules.spring.beans
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-profiler-nbimpl.jar doesn't exists. Skip checking org.netbeans.modules.profiler.nbimpl
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-owsm.jar doesn't exists. Skip checking org.netbeans.modules.websvc.owsm
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-persistenceapi.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.persistenceapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-smarty.jar doesn't exists. Skip checking org.netbeans.modules.php.smarty
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-qnavigator.jar doesn't exists. Skip checking org.netbeans.modules.cnd.qnavigator
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-j2seplatform.jar doesn't exists. Skip checking org.netbeans.modules.java.j2seplatform
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-junit.jar doesn't exists. Skip checking org.netbeans.modules.junit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-j2sedeploy.jar doesn't exists. Skip checking org.netbeans.modules.java.j2sedeploy
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-saas-codegen-j2ee.jar doesn't exists. Skip checking org.netbeans.modules.websvc.saas.codegen.j2ee
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf-editor.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf.editor
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-clientproject.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.clientproject
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-antlr.jar doesn't exists. Skip checking org.netbeans.modules.cnd.antlr
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-completion.jar doesn't exists. Skip checking org.netbeans.modules.cnd.completion
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-gotodeclaration.jar doesn't exists. Skip checking org.netbeans.modules.cnd.gotodeclaration
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-apache-axis.jar doesn't exists. Skip checking org.apache.axis
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-api-model.jar doesn't exists. Skip checking org.netbeans.modules.cnd.api.model
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-client-samples.jar doesn't exists. Skip checking org.netbeans.modules.web.client.samples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javadoc.jar doesn't exists. Skip checking org.netbeans.modules.javadoc
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-phpunit.jar doesn't exists. Skip checking org.netbeans.modules.php.phpunit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-apache-tools-ant-module.jar doesn't exists. Skip checking org.apache.tools.ant.module
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-j2ee-common.jar doesn't exists. Skip checking org.netbeans.modules.j2ee.common
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsfapi.jar doesn't exists. Skip checking org.netbeans.modules.web.jsfapi
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-customization.jar doesn't exists. Skip checking org.netbeans.modules.websvc.customization
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-java-navigation.jar doesn't exists. Skip checking org.netbeans.modules.java.navigation
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-web-jsf-kit.jar doesn't exists. Skip checking org.netbeans.modules.web.jsf.kit
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-spring-webmvc.jar doesn't exists. Skip checking org.netbeans.modules.spring.webmvc
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-code-analysis.jar doesn't exists. Skip checking org.netbeans.modules.php.code.analysis
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websocket.jar doesn't exists. Skip checking org.netbeans.modules.websocket
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cnd-remote-projectui.jar doesn't exists. Skip checking org.netbeans.modules.cnd.remote.projectui
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-cordova-platforms-ios.jar doesn't exists. Skip checking org.netbeans.modules.cordova.platforms.ios
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-javaee-project.jar doesn't exists. Skip checking org.netbeans.modules.javaee.project
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-websvc-rest-samples.jar doesn't exists. Skip checking org.netbeans.modules.websvc.rest.samples
+INFO [org.netbeans.modules.autoupdate.pluginimporter.ClusterUpdateProvider]: Jar file /home/marcos/.netbeans/7.4/modules/org-netbeans-modules-php-apigen.jar doesn't exists. Skip checking org.netbeans.modules.php.apigen
+INFO [org.netbeans.modules.autoupdate.pluginimporter.PluginImporter]: Inspecting plugins took 254 ms
+INFO [org.netbeans.modules.autoupdate.pluginimporter.Installer]: 4 available plugins for import in /home/marcos/.netbeans/7.4
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.autoupdate.pluginimporter.Installer.getUserDir(Installer.java:190)
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.home has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.Clusters.relativeDirsWithHome(Clusters.java:137)
+INFO [org.netbeans.core.ui.focus]: External Changes Refresh on focus gain disabled
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.websvc.saas.model.SaasServicesModel.<clinit>(SaasServicesModel.java:69)
+INFO [org.netbeans.modules.cnd.api.project.NativeProjectRegistry]: Close native project Arguments_1-project-example /home/marcos/NetBeansProjects/Arguments_1-project-example
+INFO [org.netbeans.modules.cnd.api.project.NativeProjectRegistry]: Close native project InputOutput-project-example /home/marcos/NetBeansProjects/InputOutput-project-example
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 4 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 1 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 256
+WARNING [org.netbeans.core.TimableEventQueue]: too much time in AWT thread org.netbeans.modules.sampler.InternalSampler@3734f465
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.8.0.v20120529-1548 stopped

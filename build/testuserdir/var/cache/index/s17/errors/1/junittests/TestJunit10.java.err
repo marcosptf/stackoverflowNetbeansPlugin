@@ -1,0 +1,11 @@
+ERROR:3:package org.junit does not exist
+ERROR:3:static import only from classes and interfaces
+ERROR:9:package org.junit does not exist
+ERROR:10:package org.junit does not exist
+ERROR:11:package org.junit.runner does not exist
+ERROR:13:package org.junit.runners does not exist
+ERROR:15:org.junit.runner.RunWith is not an annotation type
+ERROR:21:org.junit.Before is not an annotation type
+ERROR:39:org.junit.runners.Parameterized.Parameters is not an annotation type
+ERROR:51:org.junit.Test is not an annotation type
+ERROR:54:cannot find symbol\n  symbol\d   method assertEquals(java.lang.Boolean,java.lang.Boolean)\n  location\d class junittests.TestJunit10

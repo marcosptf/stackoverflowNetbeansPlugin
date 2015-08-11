@@ -1,0 +1,2 @@
+WARNING:25:Should explicitly specify lazy attribute
+WARNING:20:iconBase unused on eager registrations

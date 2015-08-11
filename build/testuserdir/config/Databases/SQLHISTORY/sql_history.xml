@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><history><sql date="1383849700431" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao where ds_email='553400036295@tss.com'</sql><sql date="1383853397917" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone where ds_fone='525284001003'</sql><sql date="1383941437869" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">update mobile_br.licenca set dt_cancelamento='2013-10-10 00:00:00.000',dt_termino='2012-10-10 00:00:00.000' where idClienteFone=466</sql><sql date="1383941605543" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.syscontato order by 1 desc</sql><sql date="1383235769801" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          mobile_br.pacoteaquisicao.*
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+
+
+where           pacoteaquisicao.st_pacoteaquisicao in (1) and pacote.idPacote=2</sql><sql date="1383854009439" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao where ds_email='555284001004@tss.com' order by 1 desc</sql><sql date="1383657837389" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          clientefone.ds_fone
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+
+
+
+where           pacoteaquisicao.st_pacoteaquisicao in (1)</sql><sql date="1383758503653" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select          clientefone.ds_fone
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+
+
+
+where           pacoteaquisicao.st_pacoteaquisicao in (1)</sql><sql date="1383931439851" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select          clientefone.ds_fone
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login)</sql><sql date="1388772868460" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from tss_brasil.pacoteaquisicao</sql><sql date="1383083921927" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao where ds_email='11988888888@tss.com'</sql><sql date="1383764788960" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select          pacoteaquisicao.idPacoteAquisicao,clientefone.ds_fone,pacoteaquisicao.ds_email,pacoteaquisicao.ds_senha,pacoteaquisicao.st_pacoteaquisicao
+
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+where           clientefone.ds_fone in (553400036295)</sql><sql date="1383849771468" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.licenca where idpacoteaquisicao='2245'</sql><sql date="1383774313718" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.syscontato where lower(txt_mensagem) like '%ultimo%'</sql><sql date="1383853724543" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from tpa.tpa_orders order by 1 desc</sql><sql date="1383853814713" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.licenca</sql><sql date="1383774321271" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.syscontato where lower(txt_mensagem) like '%dia%'</sql><sql date="1383679983266" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">update mobile_br.pacoteaquisicao set st_pacoteaquisicao='9' where idClienteFone='470'</sql><sql date="1383083818873" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from tss_brasil.clientefone where idClienteFone='1151'</sql><sql date="1383237338869" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          pacoteaquisicao.*
+
+from            tss_brasil.pacoteaquisicao 
+join            tss_brasil.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      tss_brasil.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      tss_brasil.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      tss_brasil.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+
+
+where           pacoteaquisicao.st_pacoteaquisicao in (1) and pacote.idPacote=2</sql><sql date="1383852342923" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone where ds_fone='525284001001'</sql><sql date="1383852562857" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone where ds_fone='525284001001'</sql><sql date="1383083758770" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from tss_brasil.pacoteaquisicao where idClienteFone='1151'</sql><sql date="1388773067669" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.usuario group by idPerfil</sql><sql date="1383940767428" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao where idpacoteaquisicao=(select idPacoteAquisicao from mobile_br.pacoteaquisicao order by 1 desc)</sql><sql date="1383764925282" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select          cliente.*
+
+
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+where           clientefone.ds_fone in (553400036295)</sql><sql date="1383941340324" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao where idpacoteaquisicao=(select idPacoteAquisicao from mobile_br.pacoteaquisicao order by 1 desc limit 1)</sql><sql date="1383853512359" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone where ds_fone='555284001004'</sql><sql date="1383238487067" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          pacoteaquisicao.idPacoteAquisicao,clientefone.ds_fone,pacoteaquisicao.ds_email,pacoteaquisicao.ds_senha,pacoteaquisicao.st_pacoteaquisicao
+
+from            tss_brasil.pacoteaquisicao 
+join            tss_brasil.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      tss_brasil.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      tss_brasil.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      tss_brasil.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+where           clientefone.ds_fone in (3667787698,1434515491,8823452345,2323567899,1183095580,1026082011,6786789999)</sql><sql date="1383657735522" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          pacoteaquisicao.idPacoteAquisicao,clientefone.ds_fone,pacoteaquisicao.ds_email,pacoteaquisicao.ds_senha,pacoteaquisicao.st_pacoteaquisicao
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+
+
+where           pacoteaquisicao.st_pacoteaquisicao in (1) and pacote.idPacote=2</sql><sql date="1388773063017" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.parceiro</sql><sql date="1383912658776" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao where idpacoteaquisicao='2333'</sql><sql date="1383083940144" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao where idClienteFone='1146'</sql><sql date="1388773051964" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          cf.ds_fone
+from            tss_brasil.pacoteaquisicao as pa
+inner join      tss_brasil.clientefone cf  on pa.idClienteFone = cf.idClienteFone
+where           pa.st_pacoteaquisicao=1</sql><sql date="1383679377460" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone where ds_fone='555018970477'</sql><sql date="1383680594678" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao where idClienteFone='470'</sql><sql date="1383680592007" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">update mobile_br.pacoteaquisicao set st_pacoteaquisicao='0' where idClienteFone='470'</sql><sql date="1383774373978" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select txt_mensagem from mobile_br.syscontato where lower(txt_mensagem) like '%dia%' group by txt_mensagem</sql><sql date="1383235744791" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          pacote.idPacote
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+
+
+where           pacoteaquisicao.st_pacoteaquisicao in (1) and pacote.idPacote=2</sql><sql date="1383931431037" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select          clientefone.*
+
+
+select          clientefone.ds_fone
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login)</sql><sql date="1383764908334" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select          clientefone.*
+
+
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+where           clientefone.ds_fone in (553400036295)</sql><sql date="1383854064997" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao where idpacoteaquisicao='2332'</sql><sql date="1383940692231" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone where ds_fone='5511989722711'</sql><sql date="1383853701875" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from tpa.tpa_users order by 1 desc</sql><sql date="1383758905130" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">SELECT `pacoteaquisicao`.* FROM `pacoteaquisicao` WHERE (idClienteFone = '472') AND (st_pacoteaquisicao in (2 ,1 ,7 ,8 ,4 ,3 , ,))</sql><sql date="1383941376566" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao order by 1 desc</sql><sql date="1383849897161" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">update mobile_br.licenca set dt_cancelamento='2013-10-10 00:00:00.000',dt_termino='2012-10-10 00:00:00.000' where idpacoteaquisicao='2329'</sql><sql date="1383851358719" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.usuario</sql><sql date="1383941017522" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">11989722711</sql><sql date="1383084384547" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from tss_brasil.clientefone where idCliente='1151'</sql><sql date="1383941360011" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone where ds_fone='557466690188'</sql><sql date="1383764855399" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select          pacoteaquisicao.*
+
+
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+where           clientefone.ds_fone in (553400036295)</sql><sql date="1383940742956" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">update mobile_br.licenca set dt_cancelamento='2013-10-10 00:00:00.000',dt_termino='2012-10-10 00:00:00.000' where idpacoteaquisicao=(select idPacoteAquisicao from mobile_br.pacoteaquisicao order by 1 desc)</sql><sql date="1383927520474" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          clientefone.ds_fone
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)</sql><sql date="1383941297075" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select          clientefone.ds_fone
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)</sql><sql date="1388773013881" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone where ds_fone='5512341234123'</sql><sql date="1383853593198" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">update mobile_br.licenca set dt_cancelamento='2013-10-10 00:00:00.000',dt_termino='2012-10-10 00:00:00.000' where idpacoteaquisicao='2332'</sql><sql date="1383912658778" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">update mobile_br.licenca        set dt_cancelamento='2013-10-10 00:00:00.000',dt_termino='2012-10-10 00:00:00.000' where idpacoteaquisicao='2333'</sql><sql date="1383853461261" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone where ds_fone='5284001004'</sql><sql date="1383237807600" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">update          tss_brasil.pacoteaquisicao 
+set             ds_senha='MTIzNDU2' 
+where           ds_email in (
+                    select          pacoteaquisicao.ds_email
+                    from            tss_brasil.pacoteaquisicao 
+                    join            tss_brasil.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+                    inner join      tss_brasil.cliente     on (clientefone.idCliente = cliente.idCliente) 
+                    inner join      tss_brasil.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+                    inner join      tss_brasil.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+                    where           clientefone.ds_fone in (3667787698,1434515491,8823452345,2323567899,1183095580,1026082011,6786789999)
+        )</sql><sql date="1383941540136" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">update mobile_br.licenca set dt_cancelamento='2013-10-10 00:00:00.000',dt_termino='2012-10-10 00:00:00.000' where idPacoteAquisicao='2240'</sql><sql date="1383237390325" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          clientefone.*
+from            tss_brasil.pacoteaquisicao 
+join            tss_brasil.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      tss_brasil.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      tss_brasil.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      tss_brasil.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+
+
+where           pacoteaquisicao.st_pacoteaquisicao in (1) and pacote.idPacote=2</sql><sql date="1383679592453" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">update mobile_br.pacoteaquisicao set st_pacoteaquisicao='2' where idClienteFone='470'</sql><sql date="1383851332291" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.perfil</sql><sql date="1383769196617" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select          pacoteaquisicao.*
+
+
+
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+where           clientefone.ds_fone in (553400036295)</sql><sql date="1383238016970" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">update          tss_brasil.pacoteaquisicao 
+set             ds_senha='MTIzNDU2' 
+where           idPacoteAquisicao in (
+    160321,
+    160411,
+    160579,
+    160580,
+    160584,
+    160586,
+    160600
+)</sql><sql date="1383237552142" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          clientefone.ds_fone,pacoteaquisicao.ds_email,pacoteaquisicao.ds_senha,pacoteaquisicao.st_pacoteaquisicao
+
+from            tss_brasil.pacoteaquisicao 
+join            tss_brasil.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      tss_brasil.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      tss_brasil.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      tss_brasil.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+
+
+where           pacoteaquisicao.st_pacoteaquisicao in (1) and pacote.idPacote=2
+
+limit 1</sql><sql date="1383774273460" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.syscontato group by txt_mensagem</sql><sql date="1383941540144" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao  where idClienteFone=466</sql><sql date="1383854049738" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">update mobile_br.licenca         set st_licenca='3' where ds_licenca='555284001004'</sql><sql date="1383235807027" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          pacoteaquisicao.*
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+
+
+where           pacoteaquisicao.st_pacoteaquisicao in (1) and pacote.idPacote=2</sql><sql date="1383237406073" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          clientefone.ds_fone,pacoteaquisicao.ds_email,pacoteaquisicao.ds_senha
+
+from            tss_brasil.pacoteaquisicao 
+join            tss_brasil.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      tss_brasil.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      tss_brasil.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      tss_brasil.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+
+
+where           pacoteaquisicao.st_pacoteaquisicao in (1) and pacote.idPacote=2</sql><sql date="1383083946927" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from tss_brasil.pacoteaquisicao where idClienteFone='1146'</sql><sql date="1383774359266" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.syscontato where lower(txt_mensagem) like '%dia%' group by txt_mensagem</sql><sql date="1383849897171" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.licenca where idpacoteaquisicao='2329'</sql><sql date="1383679398074" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao where idcliente='470'</sql><sql date="1383852602560" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone order by idClienteFone desc</sql><sql date="1383852617333" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone order by idClienteFone desc</sql><sql date="1383237870951" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">where           pacoteaquisicao.st_pacoteaquisicao in (1) and pacote.idPacote=2</sql><sql date="1383237765563" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">update pacoteaquisicao set ds_senha='MTIzNDU2' where ds_email in (
+select          pacoteaquisicao.ds_email
+from            tss_brasil.pacoteaquisicao 
+join            tss_brasil.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      tss_brasil.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      tss_brasil.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+inner join      tss_brasil.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+where           clientefone.ds_fone in (3667787698,1434515491,8823452345,2323567899,1183095580,1026082011,6786789999))</sql><sql date="1383852350603" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone where ds_fone='55525284001001'</sql><sql date="1383679302859" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone</sql><sql date="1383852596984" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.clientefone order by idClientFone desc</sql><sql date="1383941340308" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">update mobile_br.licenca set dt_cancelamento='2013-10-10 00:00:00.000',dt_termino='2012-10-10 00:00:00.000' where idpacoteaquisicao=(select idPacoteAquisicao from mobile_br.pacoteaquisicao order by 1 desc limit 1)</sql><sql date="1383237649394" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          clientefone.ds_fone,pacoteaquisicao.ds_email,pacoteaquisicao.ds_senha,pacoteaquisicao.st_pacoteaquisicao
+
+from            tss_brasil.pacoteaquisicao 
+join            tss_brasil.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      tss_brasil.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      tss_brasil.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      tss_brasil.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+where           pacoteaquisicao.st_pacoteaquisicao in (3667787698,1434515491,8823452345,2323567899,1183095580,1026082011,6786789999)</sql><sql date="1383679406235" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao</sql><sql date="1383849676975" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao</sql><sql date="1383854049742" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">update mobile_br.pacoteaquisicao set dt_cancelamento='2013-10-10 00:00:00.000', st_pacoteaquisicao='3' where ds_email='553050716829@tss.com'</sql><sql date="1383764766241" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select          pacoteaquisicao.idPacoteAquisicao,clientefone.ds_fone,pacoteaquisicao.ds_email,pacoteaquisicao.ds_senha,pacoteaquisicao.st_pacoteaquisicao
+
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+where           clientefone.ds_fone in (3400036295)</sql><sql date="1383851374677" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.usuario where idPerfil='12'</sql><sql date="1383083744138" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao where idClienteFone='1151'</sql><sql date="1383237505082" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          clientefone.ds_fone,pacoteaquisicao.ds_email,pacoteaquisicao.ds_senha,pacoteaquisicao.st_pacoteaquisicao
+
+from            tss_brasil.pacoteaquisicao 
+join            tss_brasil.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      tss_brasil.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      tss_brasil.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      tss_brasil.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+
+
+where           pacoteaquisicao.st_pacoteaquisicao in (1) and pacote.idPacote=2</sql><sql date="1383853871300" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.licenca order by 1 desc</sql><sql date="1383849924198" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacoteaquisicao where ds_email='553400036295@tss.com' order by 1 desc</sql><sql date="1383657758919" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          pacoteaquisicao.idPacoteAquisicao,clientefone.ds_fone,pacoteaquisicao.ds_email,pacoteaquisicao.ds_senha,pacoteaquisicao.st_pacoteaquisicao
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+
+
+
+where           pacoteaquisicao.st_pacoteaquisicao in (1)</sql><sql date="1383087416467" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.pacote</sql><sql date="1383657558696" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          pacoteaquisicao.idPacoteAquisicao,clientefone.ds_fone,pacoteaquisicao.ds_email,pacoteaquisicao.ds_senha,pacoteaquisicao.st_pacoteaquisicao
+
+from            tss_brasil.pacoteaquisicao 
+join            tss_brasil.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      tss_brasil.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      tss_brasil.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      tss_brasil.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+
+
+where           pacoteaquisicao.st_pacoteaquisicao in (1) and pacote.idPacote=2</sql><sql date="1383765001369" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select          usuario.*
+
+
+from            mobile_br.pacoteaquisicao 
+join            mobile_br.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      mobile_br.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      mobile_br.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      mobile_br.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+where           clientefone.ds_fone in (553400036295)</sql><sql date="1383853593206" url="jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull">select * from mobile_br.licenca where idpacoteaquisicao='2332'</sql><sql date="1383237870943" url="jdbc:mysql://201.20.34.30:3306/mysql?zeroDateTimeBehavior=convertToNull">select          clientefone.ds_fone,pacoteaquisicao.ds_email,pacoteaquisicao.ds_senha,pacoteaquisicao.st_pacoteaquisicao
+
+from            tss_brasil.pacoteaquisicao 
+join            tss_brasil.clientefone on (pacoteaquisicao.idClienteFone = clientefone.idClienteFone) 
+inner join      tss_brasil.cliente     on (clientefone.idCliente = cliente.idCliente) 
+inner join      tss_brasil.usuario     on (pacoteaquisicao.ds_email = usuario.ds_login) 
+
+inner join      tss_brasil.pacote      on (pacoteaquisicao.idPacoteConfigura = pacote.idPacote)
+
+where           clientefone.ds_fone in (3667787698,1434515491,8823452345,2323567899,1183095580,1026082011,6786789999)</sql></history>

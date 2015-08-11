@@ -1,0 +1,9 @@
+<?xml version='1.0'?>
+<!DOCTYPE connection PUBLIC '-//NetBeans//DTD Database Connection 1.1//EN' 'http://www.netbeans.org/dtds/connection-1_1.dtd'>
+<connection>
+  <driver-class value='com.mysql.jdbc.Driver'/>
+  <driver-name value='MySQL'/>
+  <database-url value='jdbc:mysql://201.20.34.30:3306/mms_mexico?zeroDateTimeBehavior=convertToNull'/>
+  <schema value=''/>
+  <user value='integradora'/>
+</connection>

@@ -1,0 +1,10 @@
+ERROR:44:line 44\d80 Unexpected character(s) ? found
+ERROR:154:line 154\d80 Unexpected character(s) ? found
+ERROR:44:Unexpected token COLON found
+ERROR:65:Unexpected token MINUS found
+ERROR:65:Unexpected token WS found
+ERROR:65:Unexpected token RPAREN found
+ERROR:135:Unexpected token MINUS found
+ERROR:135:Unexpected token WS found
+ERROR:135:Unexpected token RPAREN found
+ERROR:154:Unexpected token COLON found

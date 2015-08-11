@@ -1,0 +1,16 @@
+ERROR:9:package junit.framework does not exist
+ERROR:21:method does not override or implement a method from a supertype
+ERROR:23:cannot find symbol\n  symbol\d   variable super\n  location\d class jpa.orm.PersonTest
+ERROR:26:method does not override or implement a method from a supertype
+ERROR:28:cannot find symbol\n  symbol\d   variable super\n  location\d class jpa.orm.PersonTest
+ERROR:39:cannot find symbol\n  symbol\d   method assertEquals(java.lang.Long,java.lang.Long)\n  location\d class jpa.orm.PersonTest
+ERROR:41:cannot find symbol\n  symbol\d   method fail(java.lang.String)\n  location\d class jpa.orm.PersonTest
+ERROR:53:cannot find symbol\n  symbol\d   method fail(java.lang.String)\n  location\d class jpa.orm.PersonTest
+ERROR:64:cannot find symbol\n  symbol\d   method assertEquals(java.lang.String,java.lang.String)\n  location\d class jpa.orm.PersonTest
+ERROR:66:cannot find symbol\n  symbol\d   method fail(java.lang.String)\n  location\d class jpa.orm.PersonTest
+ERROR:78:cannot find symbol\n  symbol\d   method fail(java.lang.String)\n  location\d class jpa.orm.PersonTest
+ERROR:89:cannot find symbol\n  symbol\d   method assertEquals(java.lang.String,java.lang.String)\n  location\d class jpa.orm.PersonTest
+ERROR:91:cannot find symbol\n  symbol\d   method fail(java.lang.String)\n  location\d class jpa.orm.PersonTest
+ERROR:103:cannot find symbol\n  symbol\d   method fail(java.lang.String)\n  location\d class jpa.orm.PersonTest
+ERROR:114:cannot find symbol\n  symbol\d   method assertEquals(java.lang.String,java.lang.String)\n  location\d class jpa.orm.PersonTest
+ERROR:116:cannot find symbol\n  symbol\d   method fail(java.lang.String)\n  location\d class jpa.orm.PersonTest

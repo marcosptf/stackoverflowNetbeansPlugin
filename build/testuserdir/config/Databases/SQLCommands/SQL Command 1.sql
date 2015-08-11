@@ -1,0 +1,1 @@
+select * from leandro.log;
