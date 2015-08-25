@@ -31,7 +31,7 @@ import org.openide.util.actions.Presenter;
         lazy = false,
         displayName = "NOT-USED")
 @ActionReference(
-        path = "Toolbars/File",
+        path = "Toolbars/Stackoverflow",
         position = 0)
 
 public final class StackActionListener extends AbstractAction implements Presenter.Toolbar {
