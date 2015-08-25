@@ -19,5 +19,12 @@
                 <attr intvalue="0" name="position"/>
             </file>
         </folder>
+        <folder name="Stackoverflow">
+            <file name="br-search-yahoo-YahooActionListener.shadow">
+                <!--org.stackoverflow.StackActionListener-->
+                <attr name="originalFile" stringvalue="Actions/File/br-search-yahoo-YahooActionListener.instance"/>
+                <attr intvalue="0" name="position"/>
+            </file>
+        </folder>
     </folder>
 </filesystem>
