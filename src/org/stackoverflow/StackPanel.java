@@ -65,7 +65,7 @@ public class StackPanel extends javax.swing.JPanel {
                 .addContainerGap()
                 )
         );
-        layout.setVerticalGroup(
+        /*layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING,true)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
@@ -73,7 +73,7 @@ public class StackPanel extends javax.swing.JPanel {
                 .addComponent(jTextFieldYahoo,15,25,25)
                 .addComponent(jLabelYahoo))
                 .addContainerGap())
-        );        
+        );*/        
 
      }
 
