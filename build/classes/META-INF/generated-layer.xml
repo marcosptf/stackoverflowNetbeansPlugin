@@ -4,27 +4,26 @@
 <filesystem>
     <folder name="Actions">
         <folder name="File">
-            <file name="br-search-yahoo-YahooActionListener.instance">
-                <!--org.stackoverflow.StackActionListener-->
+            <file name="com-stackoverflow-StackOverflowActionListener.instance">
+                <!--com.stackoverflow.StackOverflowActionListener-->
                 <attr name="displayName" stringvalue="NOT-USED"/>
-                <attr name="instanceCreate" newvalue="org.stackoverflow.StackActionListener"/>
+                <attr name="instanceCreate" newvalue="com.stackoverflow.StackOverflowActionListener"/>
             </file>
         </folder>
     </folder>
     <folder name="Toolbars">
         <folder name="File">
-            <file name="br-search-yahoo-YahooActionListener.shadow">
-                <!--org.stackoverflow.StackActionListener-->
-                <attr name="originalFile" stringvalue="Actions/File/br-search-yahoo-YahooActionListener.instance"/>
+            <file name="com-stackoverflow-StackOverflowActionListener.shadow">
+                <!--com.stackoverflow.StackOverflowActionListener-->
+                <attr name="originalFile" stringvalue="Actions/File/com-stackoverflow-StackOverflowActionListener.instance"/>
                 <attr intvalue="0" name="position"/>
             </file>
         </folder>
-        <folder name="Stackoverflow">
-            <file name="br-search-yahoo-YahooActionListener.shadow">
-                <!--org.stackoverflow.StackActionListener-->
-                <attr name="originalFile" stringvalue="Actions/File/br-search-yahoo-YahooActionListener.instance"/>
-                <attr intvalue="0" name="position"/>
-            </file>
-        </folder>
+    </folder>
+    <folder name="Shortcuts">
+        <file name="DOS-S.shadow">
+            <!--com.stackoverflow.StackOverflowActionListener-->
+            <attr name="originalFile" stringvalue="Actions/File/com-stackoverflow-StackOverflowActionListener.instance"/>
+        </file>
     </folder>
 </filesystem>

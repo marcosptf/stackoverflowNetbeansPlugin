@@ -8,8 +8,7 @@
     <path orientation="horizontal" number="20" weight="0.3"/>
     <path orientation="vertical" number="60" weight="0.5"/>
   </constraints>
-  <bounds x="192" y="451" width="672" height="472" />
+  <bounds x="136" y="318" width="478" height="333" />
   <frame state="0"/>
-    <active-tc  id="navigatorTC" />
     <empty-behavior permanent="true"/>
 </mode>

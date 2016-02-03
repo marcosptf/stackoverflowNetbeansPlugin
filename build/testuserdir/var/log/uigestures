@@ -1,1274 +1,140 @@
 <record>
-  <date>2015-08-11T15:11:52</date>
-  <millis>1439316712945</millis>
-  <sequence>157</sequence>
-  <logger>org.netbeans.ui.metrics.vcs</logger>
-  <level>INFO</level>
-  <thread>20</thread>
-  <message>USG_VCS_CLIENT</message>
-  <param>GIT</param>
-  <param>JAVALIB</param>
+  <date>2016-02-02T19:25:50</date>
+  <millis>1454448350847</millis>
+  <sequence>88</sequence>
+  <level>300</level>
+  <thread>17</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
 </record>
 <record>
-  <date>2015-08-11T15:11:53</date>
-  <millis>1439316713853</millis>
-  <sequence>160</sequence>
-  <level>INFO</level>
-  <thread>20</thread>
+  <date>2016-02-02T19:25:50</date>
+  <millis>1454448350961</millis>
+  <sequence>89</sequence>
+  <level>300</level>
+  <thread>17</thread>
+  <message>SCREEN SIZE</message>
+  <param>1366</param>
+  <param>768</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2016-02-02T19:25:51</date>
+  <millis>1454448351167</millis>
+  <sequence>90</sequence>
+  <level>700</level>
+  <thread>17</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2016-02-02T19:26:01</date>
+  <millis>1454448361784</millis>
+  <sequence>105</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>17</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Metal</param>
+  <param>Metal</param>
+</record>
+<record>
+  <date>2016-02-02T19:26:22</date>
+  <millis>1454448382641</millis>
+  <sequence>109</sequence>
+  <level>800</level>
+  <thread>27</thread>
   <message>MEMORY</message>
   <key>MEMORY</key>
   <catalog>&lt;null&gt;</catalog>
-  <param>8282558464</param>
+  <param>2104393728</param>
 </record>
 <record>
-  <date>2015-08-11T15:11:54</date>
-  <millis>1439316714574</millis>
-  <sequence>161</sequence>
-  <logger>org.netbeans.ui.metrics.php</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN_PHP</message>
-  <key>USG_PROJECT_OPEN_PHP</key>
-  <catalog>org.netbeans.modules.php.project.Bundle</catalog>
-  <param>Zend PHP Web Framework</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:55</date>
-  <millis>1439316715779</millis>
-  <sequence>163</sequence>
-  <logger>org.netbeans.ui.metrics.php</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN_PHP</message>
-  <key>USG_PROJECT_OPEN_PHP</key>
-  <catalog>org.netbeans.modules.php.project.Bundle</catalog>
-  <param></param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719086</millis>
-  <sequence>174</sequence>
-  <logger>org.netbeans.ui.metrics.web.clientproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_HTML5_OPEN</message>
-  <key>USG_PROJECT_HTML5_OPEN</key>
-  <catalog>org.netbeans.modules.web.clientproject.Bundle</catalog>
-  <param>Chrome.INTEGRATED</param>
-  <param>NO</param>
-  <param>NO</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719121</millis>
-  <sequence>175</sequence>
-  <logger>org.netbeans.ui.metrics.php</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN_PHP</message>
-  <key>USG_PROJECT_OPEN_PHP</key>
-  <catalog>org.netbeans.modules.php.project.Bundle</catalog>
-  <param></param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719184</millis>
-  <sequence>176</sequence>
-  <logger>org.netbeans.ui.metrics.web.clientproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_HTML5_OPEN</message>
-  <key>USG_PROJECT_HTML5_OPEN</key>
-  <catalog>org.netbeans.modules.web.clientproject.Bundle</catalog>
-  <param>Chrome.INTEGRATED</param>
-  <param>NO</param>
-  <param>NO</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719232</millis>
-  <sequence>177</sequence>
-  <logger>org.netbeans.ui.metrics.web.clientproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_HTML5_OPEN</message>
-  <key>USG_PROJECT_HTML5_OPEN</key>
-  <catalog>org.netbeans.modules.web.clientproject.Bundle</catalog>
-  <param>Chrome.INTEGRATED</param>
-  <param>NO</param>
-  <param>NO</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719284</millis>
-  <sequence>178</sequence>
-  <logger>org.netbeans.ui.metrics.web.clientproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_HTML5_OPEN</message>
-  <key>USG_PROJECT_HTML5_OPEN</key>
-  <catalog>org.netbeans.modules.web.clientproject.Bundle</catalog>
-  <param>Chrome.INTEGRATED</param>
-  <param>NO</param>
-  <param>NO</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719305</millis>
-  <sequence>179</sequence>
-  <logger>org.netbeans.ui.metrics.web.clientproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_HTML5_OPEN</message>
-  <key>USG_PROJECT_HTML5_OPEN</key>
-  <catalog>org.netbeans.modules.web.clientproject.Bundle</catalog>
-  <param>Chrome.INTEGRATED</param>
-  <param>YES</param>
-  <param>NO</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719323</millis>
-  <sequence>180</sequence>
-  <logger>org.netbeans.ui.metrics.web.clientproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_HTML5_OPEN</message>
-  <key>USG_PROJECT_HTML5_OPEN</key>
-  <catalog>org.netbeans.modules.web.clientproject.Bundle</catalog>
-  <param>Chrome.INTEGRATED</param>
-  <param>NO</param>
-  <param>NO</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719343</millis>
-  <sequence>181</sequence>
-  <logger>org.netbeans.ui.metrics.web.clientproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_HTML5_OPEN</message>
-  <key>USG_PROJECT_HTML5_OPEN</key>
-  <catalog>org.netbeans.modules.web.clientproject.Bundle</catalog>
-  <param>Chrome.INTEGRATED</param>
-  <param>NO</param>
-  <param>NO</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719356</millis>
-  <sequence>182</sequence>
-  <logger>org.netbeans.ui.metrics.web.clientproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_HTML5_OPEN</message>
-  <key>USG_PROJECT_HTML5_OPEN</key>
-  <catalog>org.netbeans.modules.web.clientproject.Bundle</catalog>
-  <param>Chrome.INTEGRATED</param>
-  <param>NO</param>
-  <param>NO</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719370</millis>
-  <sequence>183</sequence>
-  <logger>org.netbeans.ui.metrics.web.clientproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_HTML5_OPEN</message>
-  <key>USG_PROJECT_HTML5_OPEN</key>
-  <catalog>org.netbeans.modules.web.clientproject.Bundle</catalog>
-  <param>Chrome.INTEGRATED</param>
-  <param>NO</param>
-  <param>NO</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719383</millis>
-  <sequence>184</sequence>
-  <logger>org.netbeans.ui.metrics.web.clientproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_HTML5_OPEN</message>
-  <key>USG_PROJECT_HTML5_OPEN</key>
-  <catalog>org.netbeans.modules.web.clientproject.Bundle</catalog>
-  <param>Chrome.INTEGRATED</param>
-  <param>NO</param>
-  <param>NO</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719398</millis>
-  <sequence>185</sequence>
-  <logger>org.netbeans.ui.metrics.php</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN_PHP</message>
-  <key>USG_PROJECT_OPEN_PHP</key>
-  <catalog>org.netbeans.modules.php.project.Bundle</catalog>
-  <param></param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719472</millis>
-  <sequence>186</sequence>
-  <logger>org.netbeans.ui.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>UI_WEB_PROJECT_OPENED</message>
-  <key>UI_WEB_PROJECT_OPENED</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>Tomcat60</param>
-  <param>tomcat60:home=C:\Arquivos de programas\Apache Software Foundation\Apache Tomcat 6.0.26:base=apache-tomcat-6.0.26_base</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719472</millis>
-  <sequence>187</sequence>
-  <logger>org.netbeans.ui.metrics.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN_WEB</message>
-  <key>USG_PROJECT_OPEN_WEB</key>
-  <catalog>org.netbeans.modules.web.project.Bundle</catalog>
-  <param></param>
-  <param>1.5</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719757</millis>
-  <sequence>188</sequence>
-  <logger>org.netbeans.ui.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>UI_WEB_PROJECT_OPENED</message>
-  <key>UI_WEB_PROJECT_OPENED</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>Tomcat60</param>
-  <param>tomcat60:home=C:\Arquivos de programas\Apache Software Foundation\Apache Tomcat 6.0.26:base=apache-tomcat-6.0.26_base</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719758</millis>
-  <sequence>189</sequence>
-  <logger>org.netbeans.ui.metrics.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN_WEB</message>
-  <key>USG_PROJECT_OPEN_WEB</key>
-  <catalog>org.netbeans.modules.web.project.Bundle</catalog>
-  <param></param>
-  <param>1.5</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719878</millis>
-  <sequence>190</sequence>
-  <logger>org.netbeans.ui.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>UI_WEB_PROJECT_OPENED</message>
-  <key>UI_WEB_PROJECT_OPENED</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>Tomcat60</param>
-  <param>tomcat60:home=C:\Arquivos de programas\Apache Software Foundation\Apache Tomcat 6.0.26:base=apache-tomcat-6.0.26_base</param>
-</record>
-<record>
-  <date>2015-08-11T15:11:59</date>
-  <millis>1439316719878</millis>
-  <sequence>191</sequence>
-  <logger>org.netbeans.ui.metrics.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN_WEB</message>
-  <key>USG_PROJECT_OPEN_WEB</key>
-  <catalog>org.netbeans.modules.web.project.Bundle</catalog>
-  <param></param>
-  <param>1.5</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:00</date>
-  <millis>1439316720028</millis>
-  <sequence>192</sequence>
-  <logger>org.netbeans.ui.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>UI_WEB_PROJECT_OPENED</message>
-  <key>UI_WEB_PROJECT_OPENED</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>Tomcat60</param>
-  <param>tomcat60:home=C:\Arquivos de programas\Apache Software Foundation\Apache Tomcat 6.0.26:base=apache-tomcat-6.0.26_base</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:00</date>
-  <millis>1439316720028</millis>
-  <sequence>193</sequence>
-  <logger>org.netbeans.ui.metrics.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN_WEB</message>
-  <key>USG_PROJECT_OPEN_WEB</key>
-  <catalog>org.netbeans.modules.web.project.Bundle</catalog>
-  <param></param>
-  <param>1.5</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:00</date>
-  <millis>1439316720131</millis>
-  <sequence>194</sequence>
-  <logger>org.netbeans.ui.metrics.php</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN_PHP</message>
-  <key>USG_PROJECT_OPEN_PHP</key>
-  <catalog>org.netbeans.modules.php.project.Bundle</catalog>
-  <param></param>
-</record>
-<record>
-  <date>2015-08-11T15:12:00</date>
-  <millis>1439316720144</millis>
-  <sequence>195</sequence>
-  <logger>org.netbeans.ui.metrics.web.clientproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_HTML5_OPEN</message>
-  <key>USG_PROJECT_HTML5_OPEN</key>
-  <catalog>org.netbeans.modules.web.clientproject.Bundle</catalog>
-  <param>Chrome.INTEGRATED</param>
-  <param>NO</param>
-  <param>NO</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:00</date>
-  <millis>1439316720159</millis>
-  <sequence>196</sequence>
-  <logger>org.netbeans.ui.metrics.web.clientproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_HTML5_OPEN</message>
-  <key>USG_PROJECT_HTML5_OPEN</key>
-  <catalog>org.netbeans.modules.web.clientproject.Bundle</catalog>
-  <param>Chrome.INTEGRATED</param>
-  <param>NO</param>
-  <param>NO</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:00</date>
-  <millis>1439316720948</millis>
-  <sequence>198</sequence>
-  <logger>org.netbeans.ui.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>UI_WEB_PROJECT_OPENED</message>
-  <key>UI_WEB_PROJECT_OPENED</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>gfv3ee6</param>
-  <param>[/usr/local/glassfish-3.1.2.2/glassfish:/usr/local/glassfish-3.1.2.2/glassfish/domains/domain1]deployer:gfv3ee6wc:localhost:4848</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:00</date>
-  <millis>1439316720956</millis>
-  <sequence>199</sequence>
-  <logger>org.netbeans.ui.metrics.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN_WEB</message>
-  <key>USG_PROJECT_OPEN_WEB</key>
-  <catalog>org.netbeans.modules.web.project.Bundle</catalog>
-  <param>GlassFish Server</param>
-  <param>1.6-web</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:01</date>
-  <millis>1439316721124</millis>
-  <sequence>200</sequence>
-  <logger>org.netbeans.ui.metrics.cnd</logger>
-  <level>INFO</level>
-  <thread>47</thread>
-  <message>USG_PROJECT_OPEN_CND</message>
-  <param>APPLICATION</param>
-  <param>GNU</param>
-  <param>GNU</param>
-  <param>LOCAL</param>
-  <param>Linux-x86</param>
-  <param>25</param>
-  <param>25</param>
-  <param>NO_CPP</param>
-  <param>USE_C</param>
-  <param>NO_FORTRAN</param>
-  <param>NO_ASM</param>
-  <param>sside</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:01</date>
-  <millis>1439316721143</millis>
-  <sequence>201</sequence>
-  <logger>org.netbeans.ui.metrics.cnd</logger>
-  <level>INFO</level>
-  <thread>47</thread>
-  <message>USG_CND_LAUNCHERS</message>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:01</date>
-  <millis>1439316721189</millis>
-  <sequence>204</sequence>
-  <logger>org.netbeans.ui.metrics.cnd</logger>
-  <level>INFO</level>
-  <thread>46</thread>
-  <message>USG_PROJECT_OPEN_CND</message>
-  <param>APPLICATION</param>
-  <param>GNU</param>
-  <param>GNU</param>
-  <param>LOCAL</param>
-  <param>Linux-x86</param>
-  <param>25</param>
-  <param>25</param>
-  <param>NO_CPP</param>
-  <param>USE_C</param>
-  <param>NO_FORTRAN</param>
-  <param>NO_ASM</param>
-  <param>sside</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:01</date>
-  <millis>1439316721190</millis>
-  <sequence>205</sequence>
-  <logger>org.netbeans.ui.metrics.cnd</logger>
-  <level>INFO</level>
-  <thread>46</thread>
-  <message>USG_CND_LAUNCHERS</message>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722010</millis>
-  <sequence>209</sequence>
-  <logger>org.netbeans.ui.j2ee.earproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>UI_EAR_PROJECT_OPENED</message>
-  <key>UI_EAR_PROJECT_OPENED</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>gfv3ee6</param>
-  <param>[/usr/local/glassfish-3.1.2.2/glassfish:/usr/local/glassfish-3.1.2.2/glassfish/domains/domain1]deployer:gfv3ee6wc:localhost:4848</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722010</millis>
-  <sequence>210</sequence>
-  <logger>org.netbeans.ui.metrics.j2ee.earproject</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN_EAR</message>
-  <key>USG_PROJECT_OPEN_EAR</key>
-  <catalog>org.netbeans.modules.j2ee.earproject.Bundle</catalog>
-  <param>GlassFish Server</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722567</millis>
-  <sequence>211</sequence>
-  <logger>org.netbeans.ui.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>UI_WEB_PROJECT_OPENED</message>
-  <key>UI_WEB_PROJECT_OPENED</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>gfv3ee6</param>
-  <param>[/usr/local/glassfish-3.1.2.2/glassfish:/usr/local/glassfish-3.1.2.2/glassfish/domains/domain1]deployer:gfv3ee6wc:localhost:4848</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722567</millis>
-  <sequence>212</sequence>
-  <logger>org.netbeans.ui.metrics.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN_WEB</message>
-  <key>USG_PROJECT_OPEN_WEB</key>
-  <catalog>org.netbeans.modules.web.project.Bundle</catalog>
-  <param>GlassFish Server</param>
-  <param>1.6-web</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722781</millis>
-  <sequence>213</sequence>
-  <logger>org.netbeans.ui.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>UI_WEB_PROJECT_OPENED</message>
-  <key>UI_WEB_PROJECT_OPENED</key>
-  <catalog>&lt;null&gt;</catalog>
-  <param>gfv3ee6</param>
-  <param>[/usr/local/glassfish-3.1.2.2/glassfish:/usr/local/glassfish-3.1.2.2/glassfish/domains/domain1]deployer:gfv3ee6wc:localhost:4848</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722781</millis>
-  <sequence>214</sequence>
-  <logger>org.netbeans.ui.metrics.web.project</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN_WEB</message>
-  <key>USG_PROJECT_OPEN_WEB</key>
-  <catalog>org.netbeans.modules.web.project.Bundle</catalog>
-  <param>GlassFish Server</param>
-  <param>1.6-web</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722817</millis>
-  <sequence>215</sequence>
-  <logger>org.netbeans.ui.projects</logger>
-  <level>CONFIG</level>
-  <thread>31</thread>
-  <message>UI_INIT_PROJECTS</message>
-  <key>UI_INIT_PROJECTS</key>
-  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
-  <param>org.netbeans.modules.php.project.PhpProject</param>
-  <param>PhpProject</param>
-  <param>5</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722817</millis>
-  <sequence>216</sequence>
-  <logger>org.netbeans.ui.projects</logger>
-  <level>CONFIG</level>
-  <thread>31</thread>
-  <message>UI_INIT_PROJECTS</message>
-  <key>UI_INIT_PROJECTS</key>
-  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-  <param>J2SEProject</param>
-  <param>9</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722817</millis>
-  <sequence>217</sequence>
-  <logger>org.netbeans.ui.projects</logger>
-  <level>CONFIG</level>
-  <thread>31</thread>
-  <message>UI_INIT_PROJECTS</message>
-  <key>UI_INIT_PROJECTS</key>
-  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
-  <param>org.netbeans.modules.j2ee.earproject.EarProject</param>
-  <param>EarProject</param>
-  <param>1</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722817</millis>
-  <sequence>218</sequence>
-  <logger>org.netbeans.ui.projects</logger>
-  <level>CONFIG</level>
-  <thread>31</thread>
-  <message>UI_INIT_PROJECTS</message>
-  <key>UI_INIT_PROJECTS</key>
-  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
-  <param>org.netbeans.modules.web.project.WebProject</param>
-  <param>WebProject</param>
-  <param>7</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722817</millis>
-  <sequence>219</sequence>
-  <logger>org.netbeans.ui.projects</logger>
-  <level>CONFIG</level>
-  <thread>31</thread>
-  <message>UI_INIT_PROJECTS</message>
-  <key>UI_INIT_PROJECTS</key>
-  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
-  <param>org.netbeans.modules.apisupport.project.suite.SuiteProject</param>
-  <param>SuiteProject</param>
-  <param>3</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722817</millis>
-  <sequence>220</sequence>
-  <logger>org.netbeans.ui.projects</logger>
-  <level>CONFIG</level>
-  <thread>31</thread>
-  <message>UI_INIT_PROJECTS</message>
-  <key>UI_INIT_PROJECTS</key>
-  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-  <param>NbModuleProject</param>
-  <param>17</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722817</millis>
-  <sequence>221</sequence>
-  <logger>org.netbeans.ui.projects</logger>
-  <level>CONFIG</level>
-  <thread>31</thread>
-  <message>UI_INIT_PROJECTS</message>
-  <key>UI_INIT_PROJECTS</key>
-  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
-  <param>org.netbeans.modules.cnd.makeproject.MakeProject</param>
-  <param>MakeProject</param>
-  <param>2</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722817</millis>
-  <sequence>222</sequence>
-  <logger>org.netbeans.ui.projects</logger>
-  <level>CONFIG</level>
-  <thread>31</thread>
-  <message>UI_INIT_PROJECTS</message>
-  <key>UI_INIT_PROJECTS</key>
-  <catalog>org.netbeans.modules.project.ui.Bundle</catalog>
-  <param>org.netbeans.modules.web.clientproject.ClientSideProject</param>
-  <param>ClientSideProject</param>
-  <param>12</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>223</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.php.project.PhpProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>224</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.suite.SuiteProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>225</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>226</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>227</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>228</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>229</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.php.project.PhpProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>230</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>231</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>232</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>233</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>234</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>235</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>236</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>237</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>238</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.clientproject.ClientSideProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>239</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.php.project.PhpProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>240</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>241</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.clientproject.ClientSideProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>242</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>243</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.clientproject.ClientSideProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>244</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>245</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.clientproject.ClientSideProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>246</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.clientproject.ClientSideProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>247</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.clientproject.ClientSideProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>248</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.clientproject.ClientSideProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>249</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.clientproject.ClientSideProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>250</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.clientproject.ClientSideProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>251</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.clientproject.ClientSideProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>252</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.php.project.PhpProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>253</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.project.WebProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>254</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.project.WebProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>255</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.project.WebProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>256</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.project.WebProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>257</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.php.project.PhpProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>258</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.clientproject.ClientSideProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>259</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.clientproject.ClientSideProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>260</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>261</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>262</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.cnd.makeproject.MakeProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>263</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.cnd.makeproject.MakeProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>264</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.suite.SuiteProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>265</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>266</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>267</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>268</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>269</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>270</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.suite.SuiteProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>271</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.apisupport.project.NbModuleProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>272</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.project.WebProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>273</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>274</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>275</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>276</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.j2ee.earproject.EarProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>277</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.project.WebProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:02</date>
-  <millis>1439316722818</millis>
-  <sequence>278</sequence>
-  <logger>org.netbeans.ui.metrics.projects</logger>
-  <level>INFO</level>
-  <thread>31</thread>
-  <message>USG_PROJECT_OPEN</message>
-  <param>org.netbeans.modules.web.project.WebProject</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:03</date>
-  <millis>1439316723123</millis>
-  <sequence>279</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>60</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:08</date>
-  <millis>1439316728853</millis>
-  <sequence>393</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>60</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>5730</param>
-  <param>TaskListIndexer</param>
-  <param>90</param>
-  <param>2</param>
-  <param>CopyResourcesIndexer</param>
-  <param>56</param>
-  <param>1</param>
-  <param>SpringBinary</param>
-  <param>555</param>
-  <param>109</param>
-  <param>jsfBinary</param>
-  <param>555</param>
-  <param>43</param>
-  <param>cnd</param>
-  <param>8</param>
-  <param>1</param>
-  <param>jsfCustomIndexer</param>
-  <param>90</param>
-  <param>10</param>
-  <param>java</param>
-  <param>611</param>
-  <param>735</param>
-  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
-  <param>90</param>
-  <param>213</param>
-  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
-  <param>90</param>
-  <param>31</param>
-</record>
-<record>
-  <date>2015-08-11T15:12:44</date>
-  <millis>1439316764039</millis>
-  <sequence>883</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>FINE</level>
-  <thread>33</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-</record>
-<record>
-  <date>2015-08-11T15:13:00</date>
-  <millis>1439316780573</millis>
-  <sequence>886</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>FINE</level>
-  <thread>33</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-</record>
-<record>
-  <date>2015-08-11T15:13:48</date>
-  <millis>1439316828798</millis>
-  <sequence>887</sequence>
+  <date>2016-02-02T19:26:36</date>
+  <millis>1454448396688</millis>
+  <sequence>112</sequence>
   <logger>org.netbeans.ui.actions</logger>
-  <level>FINER</level>
-  <thread>33</thread>
+  <level>400</level>
+  <thread>22</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.openide.awt.AlwaysEnabledAction[StackOverflow]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>StackOverflow</param>
+</record>
+<record>
+  <date>2016-02-02T19:26:40</date>
+  <millis>1454448400776</millis>
+  <sequence>113</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>22</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.openide.awt.AlwaysEnabledAction[StackOverflow]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>StackOverflow</param>
+</record>
+<record>
+  <date>2016-02-02T19:26:42</date>
+  <millis>1454448402530</millis>
+  <sequence>114</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>22</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.openide.awt.AlwaysEnabledAction[StackOverflow]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>StackOverflow</param>
+</record>
+<record>
+  <date>2016-02-02T19:26:42</date>
+  <millis>1454448402938</millis>
+  <sequence>115</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>22</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.openide.awt.AlwaysEnabledAction[StackOverflow]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>StackOverflow</param>
+</record>
+<record>
+  <date>2016-02-02T19:26:43</date>
+  <millis>1454448403272</millis>
+  <sequence>116</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>22</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.openide.awt.AlwaysEnabledAction[StackOverflow]</param>
+  <param>org.openide.awt.AlwaysEnabledAction</param>
+  <param>StackOverflow</param>
+</record>
+<record>
+  <date>2016-02-02T19:26:54</date>
+  <millis>1454448414594</millis>
+  <sequence>117</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>22</thread>
   <message>UI_ACTION_BUTTON_PRESS</message>
   <key>UI_ACTION_BUTTON_PRESS</key>
   <catalog>org.openide.awt.Bundle</catalog>
@@ -1279,248 +145,361 @@
   <param>E&amp;xit</param>
 </record>
 <record>
-  <date>2015-08-11T15:13:51</date>
-  <millis>1439316831382</millis>
-  <sequence>889</sequence>
+  <date>2016-02-02T19:26:59</date>
+  <millis>1454448419675</millis>
+  <sequence>118</sequence>
   <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
+  <level>800</level>
+  <thread>44</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>102529</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:51</date>
-  <millis>1439316831484</millis>
-  <sequence>890</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2015-08-11T15:13:51</date>
-  <millis>1439316831544</millis>
-  <sequence>891</sequence>
+  <date>2016-02-02T19:26:59</date>
+  <millis>1454448419784</millis>
+  <sequence>119</sequence>
   <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>60</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:51</date>
-  <millis>1439316831619</millis>
-  <sequence>892</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
+  <level>800</level>
+  <thread>44</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
+  <param>21</param>
 </record>
 <record>
-  <date>2015-08-11T15:13:51</date>
-  <millis>1439316831646</millis>
-  <sequence>893</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>27</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:51</date>
-  <millis>1439316831721</millis>
-  <sequence>894</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:51</date>
-  <millis>1439316831747</millis>
-  <sequence>895</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>26</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:51</date>
-  <millis>1439316831823</millis>
-  <sequence>896</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:51</date>
-  <millis>1439316831850</millis>
-  <sequence>897</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>27</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:51</date>
-  <millis>1439316831903</millis>
-  <sequence>898</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:51</date>
-  <millis>1439316831984</millis>
-  <sequence>900</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>81</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:52</date>
-  <millis>1439316832096</millis>
-  <sequence>902</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:52</date>
-  <millis>1439316832186</millis>
-  <sequence>903</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>90</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:52</date>
-  <millis>1439316832249</millis>
-  <sequence>904</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>0</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:52</date>
-  <millis>1439316832332</millis>
-  <sequence>905</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>83</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:52</date>
-  <millis>1439316832496</millis>
-  <sequence>909</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>105</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:52</date>
-  <millis>1439316832602</millis>
-  <sequence>910</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_STARTED</message>
-  <key>INDEXING_STARTED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>106</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:52</date>
-  <millis>1439316832689</millis>
-  <sequence>911</sequence>
-  <logger>org.netbeans.ui.indexing</logger>
-  <level>INFO</level>
-  <thread>89</thread>
-  <message>INDEXING_FINISHED</message>
-  <key>INDEXING_FINISHED</key>
-  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>10</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:52</date>
-  <millis>1439316832784</millis>
-  <sequence>916</sequence>
-  <logger>org.netbeans.ui.performance</logger>
-  <level>CONFIG</level>
-  <thread>91</thread>
-  <message>Snapshot statistics</message>
-  <param>1439316828946</param>
-  <param>Samples</param>
-  <param>374</param>
-  <param>Average</param>
-  <param>10.192624772727264</param>
-  <param>Minimum</param>
-  <param>4.853125</param>
-  <param>Maximum</param>
-  <param>26.839196</param>
-  <param>Std. deviation</param>
-  <param>1.6804984151025018</param>
-</record>
-<record>
-  <date>2015-08-11T15:13:52</date>
-  <millis>1439316832787</millis>
-  <sequence>917</sequence>
+  <date>2016-02-02T19:26:59</date>
+  <millis>1454448419857</millis>
+  <sequence>124</sequence>
   <logger>org.netbeans.ui.focus</logger>
-  <level>FINE</level>
-  <thread>33</thread>
+  <level>500</level>
+  <thread>22</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-02-02T19:50:38</date>
+  <millis>1454449838979</millis>
+  <sequence>88</sequence>
+  <level>300</level>
+  <thread>17</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2016-02-02T19:50:39</date>
+  <millis>1454449839227</millis>
+  <sequence>89</sequence>
+  <level>300</level>
+  <thread>17</thread>
+  <message>SCREEN SIZE</message>
+  <param>1366</param>
+  <param>768</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2016-02-02T19:50:39</date>
+  <millis>1454449839297</millis>
+  <sequence>90</sequence>
+  <level>700</level>
+  <thread>17</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2016-02-02T19:50:57</date>
+  <millis>1454449857265</millis>
+  <sequence>105</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>17</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Metal</param>
+  <param>Metal</param>
+</record>
+<record>
+  <date>2016-02-02T19:51:11</date>
+  <millis>1454449871874</millis>
+  <sequence>108</sequence>
+  <level>800</level>
+  <thread>36</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>2104393728</param>
+</record>
+<record>
+  <date>2016-02-02T19:53:05</date>
+  <millis>1454449985381</millis>
+  <sequence>110</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>55</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Actions$MenuItem[Exit]</param>
+  <param>org.openide.awt.Actions$MenuItem</param>
+  <param>org.netbeans.core.actions.SystemExit[E&amp;xit]</param>
+  <param>org.netbeans.core.actions.SystemExit</param>
+  <param>E&amp;xit</param>
+</record>
+<record>
+  <date>2016-02-02T19:53:09</date>
+  <millis>1454449989945</millis>
+  <sequence>111</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>67</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2016-02-02T19:53:10</date>
+  <millis>1454449990121</millis>
+  <sequence>112</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>67</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>121</param>
+</record>
+<record>
+  <date>2016-02-02T19:53:10</date>
+  <millis>1454449990260</millis>
+  <sequence>115</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>55</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-02-03T10:53:08</date>
+  <millis>1454503988582</millis>
+  <sequence>88</sequence>
+  <level>300</level>
+  <thread>17</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2016-02-03T10:53:08</date>
+  <millis>1454503988657</millis>
+  <sequence>89</sequence>
+  <level>300</level>
+  <thread>17</thread>
+  <message>SCREEN SIZE</message>
+  <param>1366</param>
+  <param>768</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2016-02-03T10:53:08</date>
+  <millis>1454503988662</millis>
+  <sequence>90</sequence>
+  <level>700</level>
+  <thread>17</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2016-02-03T10:53:17</date>
+  <millis>1454503997485</millis>
+  <sequence>105</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>17</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Metal</param>
+  <param>Metal</param>
+</record>
+<record>
+  <date>2016-02-03T10:53:32</date>
+  <millis>1454504012235</millis>
+  <sequence>108</sequence>
+  <level>800</level>
+  <thread>36</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>2104393728</param>
+</record>
+<record>
+  <date>2016-02-03T10:54:16</date>
+  <millis>1454504056292</millis>
+  <sequence>112</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>49</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-02-03T10:55:12</date>
+  <millis>1454504112226</millis>
+  <sequence>113</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>16</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>67</param>
+</record>
+<record>
+  <date>2016-02-03T10:55:29</date>
+  <millis>1454504129648</millis>
+  <sequence>114</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>49</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-02-03T10:55:50</date>
+  <millis>1454504150608</millis>
+  <sequence>115</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>36</thread>
+  <message>LOG_WINDOW_ACTIVATED</message>
+  <key>LOG_WINDOW_ACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+  <param>7</param>
+</record>
+<record>
+  <date>2016-02-03T10:55:52</date>
+  <millis>1454504152151</millis>
+  <sequence>116</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>49</thread>
+  <message>LOG_WINDOW_DEACTIVATED</message>
+  <key>LOG_WINDOW_DEACTIVATED</key>
+  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
+</record>
+<record>
+  <date>2016-02-03T11:25:29</date>
+  <millis>1454505929116</millis>
+  <sequence>164</sequence>
+  <level>300</level>
+  <thread>17</thread>
+  <message>CPU INFO</message>
+  <param>4</param>
+</record>
+<record>
+  <date>2016-02-03T11:25:29</date>
+  <millis>1454505929664</millis>
+  <sequence>165</sequence>
+  <level>300</level>
+  <thread>17</thread>
+  <message>SCREEN SIZE</message>
+  <param>1366</param>
+  <param>768</param>
+  <param>1</param>
+</record>
+<record>
+  <date>2016-02-03T11:25:29</date>
+  <millis>1454505929720</millis>
+  <sequence>166</sequence>
+  <level>700</level>
+  <thread>17</thread>
+  <message>IDE_STARTUP</message>
+</record>
+<record>
+  <date>2016-02-03T11:26:01</date>
+  <millis>1454505961708</millis>
+  <sequence>464</sequence>
+  <logger>org.netbeans.ui.metrics.laf</logger>
+  <level>800</level>
+  <thread>17</thread>
+  <message>USG_LOOK_AND_FEEL</message>
+  <param>Metal</param>
+  <param>Metal</param>
+</record>
+<record>
+  <date>2016-02-03T11:26:35</date>
+  <millis>1454505995330</millis>
+  <sequence>469</sequence>
+  <level>800</level>
+  <thread>39</thread>
+  <message>MEMORY</message>
+  <key>MEMORY</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>2104393728</param>
+</record>
+<record>
+  <date>2016-02-03T11:29:38</date>
+  <millis>1454506178454</millis>
+  <sequence>472</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>400</level>
+  <thread>22</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>org.openide.awt.Bundle</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.netbeans.modules.project.ui.actions.NewFile[&amp;New File...]</param>
+  <param>org.netbeans.modules.project.ui.actions.NewFile</param>
+  <param>&amp;New File...</param>
+</record>
+<record>
+  <date>2016-02-03T11:29:38</date>
+  <millis>1454506178456</millis>
+  <sequence>473</sequence>
+  <logger>org.netbeans.ui.actions</logger>
+  <level>500</level>
+  <thread>22</thread>
+  <message>UI_ACTION_BUTTON_PRESS</message>
+  <key>UI_ACTION_BUTTON_PRESS</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>org.openide.awt.Toolbar$DefaultIconButton[]</param>
+  <param>org.openide.awt.Toolbar$DefaultIconButton</param>
+  <param>org.netbeans.modules.project.ui.actions.NewFile[&amp;New File...]</param>
+  <param>org.netbeans.modules.project.ui.actions.NewFile</param>
+  <param>&amp;New File...</param>
+</record>
+<record>
+  <date>2016-02-03T11:30:17</date>
+  <millis>1454506217139</millis>
+  <sequence>475</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>60</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>0</param>
+</record>
+<record>
+  <date>2016-02-03T11:30:17</date>
+  <millis>1454506217329</millis>
+  <sequence>476</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>60</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>33</param>
+</record>
+<record>
+  <date>2016-02-03T11:30:17</date>
+  <millis>1454506217444</millis>
+  <sequence>480</sequence>
+  <logger>org.netbeans.ui.focus</logger>
+  <level>500</level>
+  <thread>22</thread>
   <message>LOG_WINDOW_DEACTIVATED</message>
   <key>LOG_WINDOW_DEACTIVATED</key>
   <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>

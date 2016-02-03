@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><module codename="org.stackoverflow">
-    <module_version install_time="1440460519263" last="true" origin="installer" specification_version="1.0">
+    <module_version install_time="1454009754363" last="true" origin="installer" specification_version="1.0">
         <file crc="764258356" name="config/Modules/org-stackoverflow.xml"/>
-        <file crc="166991185" name="modules/org-stackoverflow.jar"/>
+        <file crc="885927486" name="modules/org-stackoverflow.jar"/>
     </module_version>
 </module>
