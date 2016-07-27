@@ -77,19 +77,12 @@ public class StackOverflowPanel extends javax.swing.JPanel {
             HtmlBrowser.URLDisplayer.getDefault().showURL(
                     new URL(strUrl)
             );
+            searchText = "";
         } catch (UnsupportedEncodingException err) {
             err.getMessage();
         } catch (MalformedURLException err) {
             err.getMessage();
         }
     }
-    }//GEN-LAST:event_jTextField1ActionPerformed
+    }
                                            
-
-/*
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JTextField jTextField1;
-    // End of variables declaration//GEN-END:variables
-*/
-
